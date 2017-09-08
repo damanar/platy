@@ -49,7 +49,7 @@ class Requirements:
 
     def get_star(self, key):
         return self.stars[key]
-
+phase = sys.argv.pop(1)
 g = Guild('Condiments', 0)#Class to store Guild character roster
 r = Requirements()#set of constants based on star rating
 with open(platoon_file, 'rU') as csvfile:
@@ -71,7 +71,7 @@ with open(roster_file, 'rU') as csvfile:
             #print( row['player'], "doesn't exist" )
             p = g.add_player( row['player'], 0 )
 
-        if int(row['star']) >= r.get_star( 'p1' ):
+        if int(row['star']) >= r.get_star(phase):
             p = g.get_player(row['player'])
             p.add_character( row['char'], row['star'], row['level'], row['gear'], 0 )
 
@@ -92,7 +92,7 @@ for platoon in platoon_list:
     for char in platoon.get_characters():
         c = g.get_roster( char, territory )
         if len(c) < 1:
-            print( "\tUnavailable" )
+            print( "\t", char, ":: UNAVAILABLE" )
         else:
             c_sorted = sorted( c, key=lambda k: (k['star'],k['gear'],k['level']) )
             s_player = c_sorted[0]['player_obj']
