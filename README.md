@@ -12,7 +12,7 @@ platoon_list.csv should just be a list of each character with one platoon per li
 
 I will make all of this more user friendly in the future, but just getting what I can out there if others would like to leverage.
 
-##Usage
+## Usage
 Python version 3.6 is required and I have only tested on mac Sierra.
 
 `python3 platy p1`
@@ -21,7 +21,7 @@ Python version 3.6 is required and I have only tested on mac Sierra.
 
 Currently the script outputs in 2 formats, sequentially, by platoon and then by player:
 
-###platoon:
+### platoon:
 platoon  5 -
 	 Cassian Andor ::  Kaiphooon shu
 	 Garazeb &quot;Zeb&quot; Orrelios ::  JoshBFZ
@@ -39,7 +39,7 @@ platoon  5 -
 	 Cassian Andor ::  Silverkakari
 	 Bodhi Rook :: UNAVAILABLE
 
-###player:
+### player:
 damanar :: territory 1 - platoon 1 :: Jawa
 damanar :: territory 1 - platoon 6 :: Clone Sergeant - Phase I
 DrAdamBomb :: territory 1 - platoon 6 :: Plo Koon
