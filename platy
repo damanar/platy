@@ -1,0 +1,114 @@
+#!/Library/Frameworks/Python.framework/Versions/3.6/bin/python3
+
+##Script to automate platoon assignments based on guild members' rosters
+##Requires csv input, for now, so as not to burden swgoh.gg
+
+
+#need to build in 10 char max
+#account for player level 65
+
+
+import sys
+import csv
+from swgoh import Guild
+from swgoh import Player
+from swgoh import Character
+
+roster_file = 'guild_list.csv'
+platoon_file = 'platoon_list.csv'
+roster_list = []
+platoon_list = []
+platoon = 1
+max_assign = 10#Maximum number of characters a player can assign to a territory
+
+
+
+#defines the platoons, generated from supplied csv
+class Platoon:
+    def __init__(self):
+        self.characters = []
+
+    def add_character(self, character):
+        self.characters.append(character)
+
+    def get_characters(self):
+        return self.characters
+
+    def get_char(self, iterant):
+        return self.characters[iterant]
+    
+    def print_me(self):
+        stringy = ''
+        for char in self.characters:
+            stringy += "\t" + char
+        print( stringy )
+
+class Requirements:
+    def __init__(self):
+        self.stars = { 'p1': 2, 'p2': 3, 'p3': 4, 'p4': 5, 'p5': 6, 'p6': 7 }
+
+    def get_star(self, key):
+        return self.stars[key]
+
+g = Guild('Condiments', 0)#Class to store Guild character roster
+r = Requirements()#set of constants based on star rating
+with open(platoon_file, 'rU') as csvfile:
+    rows = csv.reader( csvfile )
+    for row in rows:
+        p = Platoon()
+        for cell in row:
+            p.add_character( cell )
+            #print( p.get_char(0) )
+
+        platoon_list.append( p )
+
+with open(roster_file, 'rU') as csvfile:
+    rows = csv.DictReader( csvfile, fieldnames=['player', 'star', 'char', 'level', 'gear', 'guild'] )
+    for row in rows:
+        p = {}
+        c = {}
+        if not g.exists_player(row['player']):
+            #print( row['player'], "doesn't exist" )
+            p = g.add_player( row['player'], 0 )
+
+        if int(row['star']) >= r.get_star( 'p1' ):
+            p = g.get_player(row['player'])
+            p.add_character( row['char'], row['star'], row['level'], row['gear'], 0 )
+
+#c.sort_players()
+#clist = c.get_players_by_star('Ahsoka Tano', 3)
+#clistsort = sorted( clist, key=lambda k: k['star'] )
+
+#for i in range(len(clistsort)):
+    #print( clistsort[i]['name'], clistsort[i]['star'] )
+#for player in c.characters['Ahsoka Tano']['players']:
+    #print( player['name'], player['star'], player['gear'] )
+    #print( c.characters['Commander Luke Skywalker'] )
+territory = 1
+i = 1
+for platoon in platoon_list:
+    print( "platoon ", i, "-" )
+    #platoon.print_me()
+    for char in platoon.get_characters():
+        c = g.get_roster( char, territory )
+        if len(c) < 1:
+            print( "\tUnavailable" )
+        else:
+            c_sorted = sorted( c, key=lambda k: (k['star'],k['gear'],k['level']) )
+            s_player = c_sorted[0]['player_obj']
+            s_char = c_sorted[0]['char_obj']
+            s_player.assign_territory( territory )
+            s_char.assign("territory " + str(territory), "platoon " + str(i))
+
+            print( "\t", s_char.get_name(), ':: ', c_sorted[0]['player'] )
+
+    i += 1
+    if i > 6:
+        territory += 1
+        i = 1
+
+print('*****************************************************')
+for player in g.get_players():
+    for char in player.get_characters():
+        if char.is_available() is not True:
+            print( player.get_name(), '::', char.get_assigned(), '::', char.get_name() )
