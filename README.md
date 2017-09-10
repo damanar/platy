@@ -3,12 +3,13 @@ Quick and dirty python script to assign platoons in Territory Battles for Star W
 
 Currently using csv files for input as swgoh is having bandwidth issues and I don't want to overburden them with yet another tool scraping their site.
 
-Example csv files included in the repo, but guild_list.csv should be setup like:
+## Example csv files included in the repo:
+__guild_list.csv__:
 Player Name, Character Star level, Character Name, Character Level, Character Guild Level, Guild Name
 
 These will change in the future as I intend to pull Character Power and Prioritize based on that stat.
 
-platoon_list.csv should just be a list of each character with one platoon per line. Names of characters must match the character names in guild_list.csv
+__platoon_list.csv__ should just be a list of each character with one platoon per line. Names of characters must match the character names in guild_list.csv. No separation between territories. Phase 1 should have 6 rows, Phase 2-6  should have 12
 
 I will make all of this more user friendly in the future, but just getting what I can out there if others would like to leverage.
 
