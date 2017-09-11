@@ -5,7 +5,7 @@ Currently using csv files for input as swgoh is having bandwidth issues and I do
 
 ## Example csv files included in the repo:
 __guild_list.csv__:
-Player Name, Character Star level, Character Name, Character Level, Character Guild Level, Guild Name
+Player Name, Character level, Character Name, Character Stars, Character Power, Character Gear Level, Guild Name
 
 These will change in the future as I intend to pull Character Power and Prioritize based on that stat.
 

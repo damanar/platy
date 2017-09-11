@@ -62,7 +62,7 @@ with open(platoon_file, 'rU') as csvfile:
 
 with open(roster_file, 'rU') as csvfile:
 #Parsing guild_list.csv to build our Character and Player objs and add them to our Guild obj
-    rows = csv.DictReader( csvfile, fieldnames=['player', 'star', 'char', 'level', 'gear', 'guild'] )#pulling in as a dict for readability
+    rows = csv.DictReader( csvfile, fieldnames=['player', 'level', 'char', 'star', 'power', 'gear', 'guild'] )#pulling in as a dict for readability
     for row in rows:
         p = {}#Holder for Player obj
         c = {}#Holder for Character obj
@@ -72,7 +72,7 @@ with open(roster_file, 'rU') as csvfile:
 
         if int(row['star']) >= r.get_star(phase):#we only want to add characters that meet our star requirement for the phase
             p = g.get_player(row['player'])
-            p.add_character( row['char'], row['star'], row['level'], row['gear'], 0 )#create our Character obj under our Player
+            p.add_character( row['char'], int(row['star']), row['level'], row['gear'], row['power'] )#create our Character obj under our Player
 
 ######################## OUTPUT ########################
 ######################## OUTPUT ########################
@@ -90,7 +90,7 @@ for platoon in platoon_list:
             print( "\t", char, ":: UNAVAILABLE" )
         else:#let's sort and print
             #Trying to sort for the least power character in the guild that meets the requirements; will sort on power when we add them to the guild_list.csv
-            c_sorted = sorted( c, key=lambda k: (k['star'],k['gear'],k['level']) )
+            c_sorted = sorted( c, key=lambda k: (k['power']) )
             s_player = c_sorted[0]['player_obj']
             s_char = c_sorted[0]['char_obj']
 #increment player's assignment to the current territory, each player can only assign 10 characters to each territory
@@ -99,7 +99,7 @@ for platoon in platoon_list:
             s_char.assign("territory " + str(territory), "platoon " + str(i))
 
 #print this character assignment
-            print( "\t", s_char.get_name(), ':: ', c_sorted[0]['player'] )
+            print( "\t", s_char.get_name(), "\t", c_sorted[0]['player'] )
 
 #incrementations
     i += 1
@@ -112,4 +112,4 @@ print('*****************************************************')
 for player in g.get_players():
     for char in player.get_characters():
         if char.is_available() is not True:
-            print( player.get_name(), '::', char.get_assigned(), '::', char.get_name() )
+            print( player.get_name(), "\t", char.get_assigned(), "\t", char.get_name() )
