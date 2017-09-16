@@ -15,15 +15,11 @@ class Guild:
         self.players.append(p)
         return p
 
-#return list of Players assigned to Guild
-    def get_players(self):
-        return self.players
-
 #return a Player of Guild by name
     def get_player(self, name):
         p = {}
         for player in self.players:
-            if player.get_name() == name:
+            if player.name == name:
                 p = player
         return p
 
@@ -32,7 +28,7 @@ class Guild:
         exists = False
         for player in self.players:
             #print(player.get_name())
-            if name == player.get_name():
+            if name == player.name:
                 exists = True
         return exists
 
@@ -48,11 +44,11 @@ class Guild:
                         if character.is_available():
                             #add Character of Player to return list. Including references to both Player and Character obj for manipulation as well as flat data for sorting
                             c_roster.append( {'character': character.get_name(),
-                                    'player': player.get_name(),
-                                    'star': character.get_star(),
-                                    'level': character.get_level(),
-                                    'gear': character.get_gear(),
-                                    'power': character.get_power(),
+                                    'player': player.name,
+                                    'star': character.star,
+                                    'level': character.level,
+                                    'gear': character.gear,
+                                    'power': character.power,
                                     'char_obj': character,
                                     'player_obj': player
                                 })
@@ -68,14 +64,6 @@ class Player:
         self.assignments = [0,0,0]#0 for ships, 1 for territory 1, 2 for territory 2
         self.characters = list()
 
-#return Player name
-    def get_name(self):
-        return self.name
-
-#return Player level
-    def get_level(self):
-        return self.level
-
 #return number of characters assigned to given territory
     def get_assignment(self, territory):
         return self.assignments[territory]
@@ -85,7 +73,7 @@ class Player:
         exists = False
         for character in self.characters:
             #print(character.get_name())
-            if character.get_name() == name:
+            if character.name == name:
                 exists = True
         return exists
 
