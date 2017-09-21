@@ -38,7 +38,7 @@ with open(platoon_file, 'rU') as csvfile:
 
 with open(roster_file, 'rU') as csvfile:
 #Parsing guild_list.csv to build our Character and Player objs and add them to our Guild obj
-    rows = csv.DictReader( csvfile, fieldnames=['player', 'level', 'char', 'star', 'power', 'gear'] )#pulling in as a dict for readability
+    rows = csv.DictReader( csvfile, fieldnames=['player', 'level', 'char', 'power', 'star', 'gear'] )#pulling in as a dict for readability
     for row in rows:
         p = {}#Holder for Player obj
         c = {}#Holder for Character obj
@@ -66,7 +66,7 @@ for platoon in platoon_list:
             print( "\t", char, "\tUNAVAILABLE" )
         else:#let's sort and print
             #Trying to sort for the least power character in the guild that meets the requirements; will sort on power when we add them to the guild_list.csv
-            c_sorted = sorted( c, key=lambda k: (k['power']) )
+            c_sorted = sorted( c, key=lambda k: k['power'] )
             s_player = c_sorted[0]['player_obj']
             s_char = c_sorted[0]['char_obj']
 #increment player's assignment to the current territory, each player can only assign 10 characters to each territory
