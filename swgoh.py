@@ -37,7 +37,7 @@ class Guild:
         c_roster = list()
         for player in self.players:
 #need to move territory check out of basic guild functionality to make Guild class more parsimonious; it should be a function of platy
-            if player.get_assignment( territory ) <= 10:
+            if player.get_assignment( territory ) < 10:
                 for character in player.characters:
                     if character.get_name() == name:
 #need to move availability check to platy to make Guild class more partimonious; it should be a function of platy
