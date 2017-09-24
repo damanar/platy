@@ -42,9 +42,7 @@ with open(roster_file, 'rU') as csvfile:
     for row in rows:
         p = {}#Holder for Player obj
         c = {}#Holder for Character obj
-        if not g.exists_player(row['player']):#if player has not already been added to guild
-            #print( row['player'], "doesn't exist" )
-            p = g.add_player( row['player'], 0 )#creates our Player obj under our Guild obj
+        p = g.add_player( row['player'], 65 )#creates our Player obj under our Guild obj
 
         if int(row['star']) >= r.get_star(phase):#we only want to add characters that meet our star requirement for the phase
             p = g.get_player(row['player'])
@@ -61,21 +59,22 @@ for platoon in platoon_list:
     print( "territory ", territory, " :: ", "platoon ", i, "-" )#platoon header
     #platoon.print_me()
     for char in platoon.characters:
-        c = g.get_roster( char, territory )
-        if len(c) < 1:#No character found to meet requirements
+        if char not in g.characters:
             print( "\t", char, "\tUNAVAILABLE" )
-        else:#let's sort and print
-            #Trying to sort for the least power character in the guild that meets the requirements; will sort on power when we add them to the guild_list.csv
-            c_sorted = sorted( c, key=lambda k: k['power'] )
-            s_player = c_sorted[0]['player_obj']
-            s_char = c_sorted[0]['char_obj']
+            continue
+
+        clist = g.characters[ char ]
+        #Trying to sort for the least power character in the guild that meets the requirements; will sort on power when we add them to the guild_list.csv
+        #c_sorted = sorted( clist, key=lambda k: k['power'] )
+        c_sorted = sorted( clist, key=lambda k: (k.star,k.gear,k.level) )
+        s_char = c_sorted[0]
 #increment player's assignment to the current territory, each player can only assign 10 characters to each territory
-            s_player.assign_territory( territory )
+        s_char.player.assign_territory( territory )
 #remove Player->Character from the available roster and assign it to the platoon. Probably should make Territory class for better OO
-            s_char.assign("territory " + str(territory), "platoon " + str(i))
+        s_char.assign("territory " + str(territory), "platoon " + str(i))
 
 #print this character assignment
-            print( "\t", s_char.name, "\t", c_sorted[0]['player'] )
+        print( "\t", s_char.name, "\t", s_char.player.name )
 
 #incrementations
     i += 1
@@ -87,6 +86,6 @@ print('*****************************************************')
 #alternate output by player instead of by platoon, does not display Unattainable platoons. Future: add unattainable platoons at the end.
 p_sorted = sorted( g.players, key=lambda k: (k.name) )
 for player in p_sorted:
-    for char in player.get_characters():
-        if char.is_available() is not True:
+    for char in player.characters:
+        if char.available is not True:
             print( player.name, "\t", char.assigned, "\t", char.name )
