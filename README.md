@@ -5,7 +5,7 @@ Currently using csv files for input as swgoh is having bandwidth issues and I do
 
 ## Example csv files included in the repo:
 __guild_list.csv__:
-Player Name, Character level, Character Name, Character Stars, Character Power, Character Gear Level, Guild Name
+Player Name, Player level, Character Name, Character Power, Character Stars, Character Level, Character Gear Level
 
 These will change in the future as I intend to pull Character Power and Prioritize based on that stat.
 
@@ -24,26 +24,46 @@ Currently the script outputs in 2 formats, sequentially, by platoon and then by 
 
 ### platoon:
 platoon  5 -
+
 	 Cassian Andor ::  Kaiphooon shu
+
 	 Garazeb &quot;Zeb&quot; Orrelios ::  JoshBFZ
+
 	 Bistan ::  JoshBFZ
+
 	 Bodhi Rook :: UNAVAILABLE
+
 	 K-2SO ::  LyonHart
+
 	 Cassian Andor ::  Peanut Butter
+
 	 Pao :: UNAVAILABLE
+
 	 Stormtrooper Han ::  Yamz
+
 	 Hera Syndulla ::  JoshBFZ
+
 	 Ezra Bridger ::  Daddy Dunc
+
 	 Jyn Erso ::  Pandatron
+
 	 Pao :: UNAVAILABLE
+
 	 K-2SO ::  Bayne
+
 	 Cassian Andor ::  Silverkakari
+
 	 Bodhi Rook :: UNAVAILABLE
 
 ### player:
 damanar :: territory 1 - platoon 1 :: Jawa
+
 damanar :: territory 1 - platoon 6 :: Clone Sergeant - Phase I
+
 DrAdamBomb :: territory 1 - platoon 6 :: Plo Koon
+
 DrAdamBomb :: territory 1 - platoon 3 :: CT-5555 &quot;Fives&quot;
+
 Studley Curmudgeon :: territory 1 - platoon 2 :: Baze Malbus
+
 Studley Curmudgeon :: territory 1 - platoon 3 :: Jawa Scavenger
