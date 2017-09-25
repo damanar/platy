@@ -1,6 +1,12 @@
-Stormtrooper Han,"CC-2224 ""Cody""",Coruscant Underworld Police,Kit Fisto,Ahsoka Tano,Cassian Andor,Bistan,Dathcha,Jyn Erso,Ewok Scout,Ugnaught,Logray,Poe Dameron,Lobot,Coruscant Underworld Police
-Eeth Koth,Resistance Pilot,"CT-5555 ""Fives""",Kit Fisto,Chirrut Imwe,Coruscant Underworld Police,Clone Sergeant - Phase I,Mace Windu,Ima-Gun Di,Paploo,Resistance Trooper,Wedge Antilles,Qui-Gon Jinn,Ewok Scout,Chief Chirpa
-Rey,Pao,Jyn Erso,Chirrut Imwe,Jawa Engineer,Jyn Erso,Luke Skywalker (Farmboy),K-2SO,Jedi Knight Guardian,Paploo,"CT-21-0408 ""Echo""",Luke Skywalker (Farmboy),Jawa,Aayla Secura,Scarif Rebel Pathfinder
-Rey,Eeth Koth,Coruscant Underworld Police,Teebo,Aayla Secura,Admiral Ackbar,Poe Dameron,Mace Windu,Ahsoka Tano,Luminara Unduli,Barriss Offee,Clone Sergeant - Phase I,Cassian Andor,Resistance Pilot,Ahsoka Tano
-Jyn Erso,Pao,K-2SO,Stormtrooper Han,Bodhi Rook,Biggs Darklighter,Scarif Rebel Pathfinder,Pao,K-2SO,Jyn Erso,Bistan,Bodhi Rook,Baze Malbus,Chirrut Imwe,Jyn Erso
-R2-D2,K-2SO,Mace Windu,"CT-21-0408 ""Echo""",Ugnaught,Han Solo,Admiral Ackbar,Lando Calrissian,Paploo,Dathcha,Jyn Erso,Chirrut Imwe,Cassian Andor,Bodhi Rook,K-2SO
+lobot,biggs-darklighter,resistance-pilot,jawa,luke-skywalker-farmboy,jedi-consular,baze-malbus,mace-windu,luminara-unduli,ahsoka-tano-fulcrum,princess-leir,stormtrooper-han,lando-calrissian,resistance-trooper,ct-21-0408-echo
+jedi-knight-anakin,coruscant-underworld-police,aayla-secura,chirrut-imwe,ct-21-0408-echo,jawa-engineer,ct-5555-fives,teebo,mace-windu,wedge-antilles,plo-koon,luminara-unduli,resistance-pilot,ct-21-0408-echo,eeth-koth
+cassian-andor,princess-leia,scarif-rebel-pathfinder,jyn-erso,baze-malbus,princess-leia,baze-malbus,wedge-antilles,cassian-andor,k-2so,jyn-erso,biggs-darklighter,pao,lando-calrissian,bistan
+chirrut-imwe,bistan,pao,cassian-andor,luke-skywalker-farmboy,chirrut-imww,bistan,k-2so,luke-skywalker-farmboy,wedge-antilles,baze-malbus,lando-calrissian,princess-leia,admiral-ackbar,lobot
+stormtrooper-han,lobot,admiral-ackbar,k-2so,cassian-andor,k-2so,chirrut-imwe,jyn-erso,biggs-darklighter,cassian-andor,bistan,bodhi-rook,cassian-andor,jyn-erso,baze-malbus
+grand-master-yoda,ewok-elder,logray,clone-sergeant-phase-i,ct-5555-fives,grand-master-yoda,chief-chirpa,ct-7567-rex,chief-nebit,k-2so,r2-d2,obi-wan-kenobi-old-ben,wedge-antilles,coruscant-underworld-police,paploo
+obi-wan-kenobi-old-ben,lando-calrissian,jawa-scavenger,paploo,kit-fisto,eeth-koth,jawa-engineer,cc-2224-cody,scarif-rebel-pathfinder,jyn-erso,ahsoka-tano,coruscant-underworld-police,ewok-elder,plo-koon,chief-chirpa
+ct-21-0408-echo,resistance-trooper,plo-koon,jawa,paploo,poe-dameron,scarif-rebel-pathfinder,bistan,eeth-koth,jawa,chief-chirpa,baze-malbus,chief-nebit,jedi-consular,cassian-andor
+k-2so,lobot,admiral-ackbar,scarif-rebel-pathfinder,bistan,pao,stormtrooper-han,scarif-rebel-pathfinder,baze-malbus,lobot,bodhi-rook,jyn-erso,bistan,cassian-andor,scarif-rebel-pathfinder
+baze-malbus,lando-calrissian,k-2so,biggs-darklighter,wedge-antilles,wedge-antilles,biggs-darklighter,pao,princess-leia,bistan,garazeb-zeb-orrelios,hera-syndulla,sabine-wren,ezra-bridger,chopper
+bistan,bodhi-rook,luke-skywalker-farmboy,jyn-erso,princess-leia,lando-calrissian,k-2so,cassian-andor,bistan,luke-skywalker-farmboy,chirrut-imwe,bodhi-rook,scarif-rebel-pathfinder,pao,baze-malbus
+han-solo,eeth-koth,ewok-scout,ima-gun-di,stormtrooper-han,r2-d2,clone-wars-chewbacca,rey,scarif-rebel-pathfinder,jedi-knight-anakin,r2-d2,lando-calrissian,wedge-antilles,clone-sergeant-phase-i,ewok-elder

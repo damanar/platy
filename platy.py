@@ -13,14 +13,13 @@ platoon_file = 'platoon_list.csv'#requires "Character Name, Character Name, ..."
 #roster_list = []#no longer used
 platoon_list = []#holding our platoon classes, 6 for P1, 12 for P2+
 max_assign = 10#Maximum number of characters a player can assign to a territory
+unavailable_player = Player( {}, "Unavailable", 0 )
+unavailable = Character( unavailable_player, "Unavailable", 0, 0, 0, 0 )
 
 #basically just a group of constants to provide star requirements when provided with phase number defined by p1, p2...
 class Requirements:
     def __init__(self):
         self.stars = { 'p1': 2, 'p2': 3, 'p3': 4, 'p4': 5, 'p5': 6, 'p6': 7 }
-
-    def get_star(self, key):
-        return self.stars[key]
 
 phase = sys.argv.pop(1)#grab phase argument
 g = Guild('My Guild', 0)#Class to store Guild character roster, guild name is dummy data since it is unused
@@ -38,13 +37,13 @@ with open(platoon_file, 'rU') as csvfile:
 
 with open(roster_file, 'rU') as csvfile:
 #Parsing guild_list.csv to build our Character and Player objs and add them to our Guild obj
-    rows = csv.DictReader( csvfile, fieldnames=['player', 'level', 'char', 'power', 'star', 'gear'] )#pulling in as a dict for readability
+    rows = csv.DictReader( csvfile, fieldnames=['player', 'plevel', 'char', 'power', 'star', 'level', 'gear'] )#pulling in as a dict for readability
     for row in rows:
         p = {}#Holder for Player obj
         c = {}#Holder for Character obj
         p = g.add_player( row['player'], 65 )#creates our Player obj under our Guild obj
 
-        if int(row['star']) >= r.get_star(phase):#we only want to add characters that meet our star requirement for the phase
+        if int(row['star']) >= r.stars[phase]:#we only want to add characters that meet our star requirement for the phase
             p = g.get_player(row['player'])
             p.add_character( row['char'], int(row['star']), row['level'], row['gear'], row['power'] )#create our Character obj under our Player
 
@@ -59,22 +58,30 @@ for platoon in platoon_list:
     print( "territory ", territory, " :: ", "platoon ", i, "-" )#platoon header
     #platoon.print_me()
     for char in platoon.characters:
+        s_char = unavailable#placeholder for the character we want
         if char not in g.characters:
-            print( "\t", char, "\tUNAVAILABLE" )
+            print("\t", char, "\tUnavailable")
             continue
 
         clist = g.characters[ char ]
         #Trying to sort for the least power character in the guild that meets the requirements; will sort on power when we add them to the guild_list.csv
         #c_sorted = sorted( clist, key=lambda k: k['power'] )
         c_sorted = sorted( clist, key=lambda k: (k.star,k.gear,k.level) )
-        s_char = c_sorted[0]
+        for c in c_sorted:
+            #print( c.name, "\t", c.player.name, "\t", c.star )
+            if c.available:
+                s_char = c
+                c.available = False
+                break
+
 #increment player's assignment to the current territory, each player can only assign 10 characters to each territory
-        s_char.player.assign_territory( territory )
+        if s_char.name != "Unavailable":
+            s_char.player.assign_territory( territory )
 #remove Player->Character from the available roster and assign it to the platoon. Probably should make Territory class for better OO
-        s_char.assign("territory " + str(territory), "platoon " + str(i))
+            s_char.assign("territory " + str(territory), "platoon " + str(i))
 
 #print this character assignment
-        print( "\t", s_char.name, "\t", s_char.player.name )
+        print( "\t", char, "\t", s_char.player.name )
 
 #incrementations
     i += 1
