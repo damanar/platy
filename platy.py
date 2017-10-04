@@ -12,6 +12,7 @@ roster_file = 'guild_list.csv'#requires "Player Name, Star Rating, Character Nam
 platoon_file = 'platoon_list.csv'#requires "Character Name, Character Name, ..." 15 per row/platoon; 6 rows per territory, no separation between territories. The script will automatically count the first 6 rows as territory 1 and 7 -12 as territory 2
 #roster_list = []#no longer used
 platoon_list = []#holding our platoon classes, 6 for P1, 12 for P2+
+territory_list = []#holding our platoon classes, 6 for P1, 12 for P2+
 max_assign = 10#Maximum number of characters a player can assign to a territory
 unavailable_player = Player( {}, "Unavailable", 0 )
 unavailable = Character( unavailable_player, "Unavailable", 0, 0, 0, 0 )
@@ -37,11 +38,15 @@ with open(platoon_file, 'rU') as csvfile:
 
 with open(roster_file, 'rU') as csvfile:
 #Parsing guild_list.csv to build our Character and Player objs and add them to our Guild obj
-    rows = csv.DictReader( csvfile, fieldnames=['player', 'plevel', 'char', 'power', 'star', 'level', 'gear'] )#pulling in as a dict for readability
+    #rows = csv.DictReader( csvfile, fieldnames=['player', 'plevel', 'char', 'power', 'star', 'level', 'gear'] )#pulling in as a dict for readability
+    rows = csv.DictReader( csvfile )#pulling in as a dict for readability
     for row in rows:
         p = {}#Holder for Player obj
         c = {}#Holder for Character obj
-        p = g.add_player( row['player'], 65 )#creates our Player obj under our Guild obj
+        if int(row['plevel']) >= 65:
+            p = g.add_player( row['player'], row['plevel'] )#creates our Player obj under our Guild obj
+        else:
+            continue
 
         if int(row['star']) >= r.stars[phase]:#we only want to add characters that meet our star requirement for the phase
             p = g.get_player(row['player'])

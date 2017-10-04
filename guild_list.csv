@@ -1,36 +1,40 @@
+player,plevel,char,power,star,level,gear
 W00K1E,85,kylo-ren,94.85,7,85,11
+W00K1E,85,barriss-offee,90.88,7,85,11
 W00K1E,85,captain-phasma,90.88,7,85,11
+W00K1E,85,darth-vader,90.88,7,85,11
 W00K1E,85,qui-gon-jinn,88.44,7,85,11
-W00K1E,85,first-order-tie-pilot,91.54,7,85,11
 W00K1E,85,first-order-stormtrooper,91.54,7,85,11
-W00K1E,85,barriss-offee,85.46,7,85,11
-W00K1E,85,darth-vader,85.46,7,85,11
+W00K1E,85,first-order-tie-pilot,90.76,7,85,11
 W00K1E,85,princess-leia,84.4,7,85,11
+W00K1E,85,ct-5555-fives,77.75,7,85,11
 W00K1E,85,first-order-officer,90.44,7,85,11
 W00K1E,85,grand-master-yoda,66.35,7,85,11
 W00K1E,85,emperor-palpatine,83.99,7,85,11
+W00K1E,85,wedge-antilles,86.59,7,85,10
 W00K1E,85,jedi-knight-anakin,85.72,7,85,11
+W00K1E,85,geonosian-soldier,88.03,7,85,11
 W00K1E,85,boba-fett,70.97,7,85,10
 W00K1E,85,savage-opress,73.39,7,85,11
 W00K1E,85,mace-windu,83.39,7,85,11
 W00K1E,85,stormtrooper-han,74.11,7,85,11
 W00K1E,85,luminara-unduli,73.33,7,85,11
-W00K1E,85,ct-5555-fives,72.33,7,85,11
+W00K1E,85,ahsoka-tano,83.36,7,85,10
 W00K1E,85,lando-calrissian,83.19,7,85,11
 W00K1E,85,ig-88,82.19,7,85,11
 W00K1E,85,r2-d2,62.48,7,85,10
+W00K1E,85,biggs-darklighter,83.86,7,85,10
 W00K1E,85,poggle-the-lesser,81.06,7,85,11
 W00K1E,85,grand-moff-tarkin,61.71,7,85,10
 W00K1E,85,ima-gun-di,80.43,7,85,10
 W00K1E,85,rey,70.72,7,85,10
 W00K1E,85,royal-guard,82.9,7,85,11
 W00K1E,85,ig-86-sentinel-droid,82.9,7,85,11
-W00K1E,85,geonosian-soldier,81.66,7,85,11
-W00K1E,85,ahsoka-tano,78.22,7,85,10
+W00K1E,85,jedi-consular,81.33,7,85,9
 W00K1E,85,han-solo,68.06,7,85,10
+W00K1E,85,admiral-ackbar,77.32,7,85,9
 W00K1E,85,hk-47,76.59,7,85,9
 W00K1E,85,teebo,74.45,7,85,9
-W00K1E,85,biggs-darklighter,77.48,7,85,10
 W00K1E,85,ct-21-0408-echo,74.58,7,85,9
 W00K1E,85,luke-skywalker-farmboy,59.06,7,85,9
 W00K1E,85,asajj-ventress,56.53,7,85,8
@@ -40,9 +44,7 @@ W00K1E,85,dathcha,73.38,7,85,9
 W00K1E,85,eeth-koth,73.38,7,85,9
 W00K1E,85,tie-fighter-pilot,75.8,7,85,9
 W00K1E,85,plo-koon,72.56,7,85,9
-W00K1E,85,jedi-consular,74.95,7,85,9
 W00K1E,85,clone-sergeant-phase-i,74.95,7,85,9
-W00K1E,85,admiral-ackbar,72.18,7,85,9
 W00K1E,85,k-2so,63.15,7,85,8
 W00K1E,85,talia,71.36,7,85,9
 W00K1E,85,darth-sidious,62.1,7,85,8
@@ -98,6 +100,7 @@ W00K1E,85,dengar,7.92,4,49,2
 W00K1E,85,zam-wesell,7.56,4,49,1
 W00K1E,85,gar-saxon,5.09,4,1,1
 W00K1E,85,lobot,5.79,4,1,1
+W00K1E,85,coruscant-underworld-police,5.98,4,1,1
 W00K1E,85,urorrurrr,5.79,4,1,1
 W00K1E,85,director-krennic,4.95,4,1,1
 W00K1E,85,geonosian-spy,5.98,4,1,1
@@ -106,7 +109,6 @@ W00K1E,85,veteran-smuggler-chewbacca,3.81,3,1,1
 W00K1E,85,wicket,3.39,3,1,1
 W00K1E,85,logray,3.39,3,1,1
 W00K1E,85,ahsoka-tano-fulcrum,3.39,3,1,1
-W00K1E,85,coruscant-underworld-police,3.99,3,1,1
 W00K1E,85,imperial-super-commando,3.99,3,1,1
 W00K1E,85,sith-trooper,3.99,3,1,1
 W00K1E,85,death-trooper,3.39,3,1,1
@@ -182,7 +184,7 @@ Kor Ores,85,hk-47,35.94,7,50,3
 Kor Ores,85,boba-fett,29.99,7,50,4
 Kor Ores,85,snowtrooper,30.5,5,65,7
 Kor Ores,85,talia,29.49,4,63,8
-Kor Ores,85,ezra-bridger,28.64,4,65,6
+Kor Ores,85,ezra-bridger,29.12,4,65,6
 Kor Ores,85,scarif-rebel-pathfinder,27.35,5,53,7
 Kor Ores,85,darth-maul,21.99,5,70,5
 Kor Ores,85,first-order-tie-pilot,20.23,2,53,7
@@ -199,7 +201,6 @@ Kor Ores,85,kylo-ren,14.65,4,50,5
 Kor Ores,85,stormtrooper,15.22,5,50,2
 Kor Ores,85,jedi-knight-guardian,16.48,5,40,4
 Kor Ores,85,shoretrooper,16.27,3,50,4
-Kor Ores,85,gar-saxon,12.07,4,50,2
 Kor Ores,85,poggle-the-lesser,13.29,4,40,4
 Kor Ores,85,jedi-knight-anakin,12.97,4,50,3
 Kor Ores,85,barriss-offee,11.3,4,50,2
@@ -208,7 +209,8 @@ Kor Ores,85,jyn-erso,9.31,4,50,2
 Kor Ores,85,director-krennic,10.32,3,50,3
 Kor Ores,85,veteran-smuggler-chewbacca,10.15,3,50,3
 Kor Ores,85,veteran-smuggler-han-solo,8.51,3,50,2
-Kor Ores,85,nightsister-initiate,8.96,1,40,4
+Kor Ores,85,nightsister-initiate,9.84,2,40,4
+Kor Ores,85,coruscant-underworld-police,8.97,5,1,1
 Kor Ores,85,first-order-stormtrooper,7.93,2,50,3
 Kor Ores,85,bodhi-rook,7.46,2,50,2
 Kor Ores,85,paploo,6.95,3,40,2
@@ -220,9 +222,8 @@ Kor Ores,85,sith-trooper,8.18,3,40,2
 Kor Ores,85,wicket,6.95,3,40,2
 Kor Ores,85,logray,6.95,3,40,2
 Kor Ores,85,tusken-raider,7.98,3,40,2
-Kor Ores,85,coruscant-underworld-police,5.98,4,1,1
 damanar,85,commander-luke-skywalker,85.98,7,85,11
-damanar,85,r2-d2,85.9,7,85,9
+damanar,85,r2-d2,86.52,7,85,9
 damanar,85,darth-vader,92.53,7,85,11
 damanar,85,kylo-ren,88.53,7,85,10
 damanar,85,savage-opress,88.44,7,85,10
@@ -240,6 +241,7 @@ damanar,85,stormtrooper-han,71.4,7,85,9
 damanar,85,teebo,79.15,7,85,9
 damanar,85,chirrut-imwe,76.86,7,85,8
 damanar,85,luminara-unduli,68.24,7,85,8
+damanar,85,captain-phasma,67.97,7,85,8
 damanar,85,ahsoka-tano,76.79,7,85,8
 damanar,85,jedi-knight-anakin,76.65,7,85,8
 damanar,85,barriss-offee,67.3,7,85,8
@@ -277,7 +279,7 @@ damanar,85,baze-malbus,56.61,5,85,8
 damanar,85,ahsoka-tano-fulcrum,51.29,5,85,8
 damanar,85,sabine-wren,56.73,6,85,7
 damanar,85,poe-dameron,55.68,7,85,7
-damanar,85,k-2so,47.59,7,70,8
+damanar,85,k-2so,47.92,7,70,8
 damanar,85,captain-han-solo,53.45,5,85,8
 damanar,85,jedi-consular,55.32,7,70,8
 damanar,85,finn,46.77,5,85,8
@@ -294,17 +296,18 @@ damanar,85,cc-2224-cody,38.89,7,60,7
 damanar,85,bodhi-rook,38.6,7,53,7
 damanar,85,first-order-tie-pilot,39.32,5,85,7
 damanar,85,clone-sergeant-phase-i,44.11,6,60,8
+damanar,85,resistance-trooper,44.61,5,80,7
 damanar,85,asajj-ventress,31.26,6,61,8
 damanar,85,magmatrooper,41.16,7,53,6
 damanar,85,cassian-andor,34.7,7,53,6
 damanar,85,clone-wars-chewbacca,33.24,6,65,8
 damanar,85,geonosian-soldier,38.4,4,75,8
+damanar,85,hoth-rebel-soldier,35.27,4,70,7
 damanar,85,ig-100-magnaguard,34.8,5,65,8
-damanar,85,hoth-rebel-soldier,34.61,4,70,7
 damanar,85,ct-21-0408-echo,30.58,5,60,7
 damanar,85,talia,30.57,5,63,8
 damanar,85,snowtrooper,30.01,6,60,6
-damanar,85,resistance-trooper,28.31,5,65,7
+damanar,85,ugnaught,26.17,6,53,5
 damanar,85,general-veers,21.97,5,53,7
 damanar,85,gamorrean-guard,24.87,3,64,6
 damanar,85,bb-8,22.13,5,55,6
@@ -312,8 +315,6 @@ damanar,85,han-solo,20.33,5,53,6
 damanar,85,plo-koon,22.96,5,56,6
 damanar,85,jedi-knight-guardian,19.9,5,53,5
 damanar,85,scarif-rebel-pathfinder,19.9,5,53,5
-damanar,85,sith-trooper,19.15,3,53,6
-damanar,85,ugnaught,19.36,5,53,5
 damanar,85,wicket,14.77,3,53,6
 damanar,85,tusken-shaman,14.64,4,53,4
 damanar,85,death-trooper,11.24,3,53,4
@@ -330,11 +331,11 @@ damanar,85,logray,3.45,3,1,1
 damanar,85,director-krennic,3.3,3,1,1
 damanar,85,paploo,3.39,3,1,1
 damanar,85,zam-wesell,3.86,3,1,1
+damanar,85,pao,3.39,3,1,1
 damanar,85,imperial-super-commando,3.99,3,1,1
 damanar,85,tusken-raider,3.99,3,1,1
 damanar,85,greedo,3.86,3,1,1
 damanar,85,mob-enforcer,2.66,2,1,1
-damanar,85,pao,2.26,2,1,1
 damanar,85,nightsister-initiate,2.66,2,1,1
 damanar,85,coruscant-underworld-police,1.78,1,1,1
 Kyle Katarn,85,darth-vader,91.54,7,85,11
@@ -433,6 +434,8 @@ Kyle Katarn,85,logray,11.78,3,44,5
 Kyle Katarn,85,stormtrooper,11.83,5,43,2
 Kyle Katarn,85,ct-21-0408-echo,10.5,4,40,3
 Kyle Katarn,85,kit-fisto,8.7,3,43,3
+Kyle Katarn,85,imperial-super-commando,8.94,3,32,3
+Kyle Katarn,85,gar-saxon,7.6,3,32,3
 Kyle Katarn,85,magmatrooper,8.9,3,44,3
 Kyle Katarn,85,wicket,7.07,3,42,2
 Kyle Katarn,85,director-krennic,4.95,4,1,1
@@ -452,7 +455,7 @@ Kyle Katarn,85,tusken-raider,3.99,3,1,1
 Kyle Katarn,85,nightsister-acolyte,2.66,2,1,1
 Kyle Katarn,85,nightsister-initiate,2.66,2,1,1
 Kyle Katarn,85,mob-enforcer,2.66,2,1,1
-Umbria,85,kylo-ren,90.22,7,85,11
+Umbria,85,kylo-ren,95.18,7,85,11
 Umbria,85,commander-luke-skywalker,68.93,7,85,9
 Umbria,85,emperor-palpatine,88.33,7,85,11
 Umbria,85,darth-vader,76.49,7,85,10
@@ -479,14 +482,15 @@ Umbria,85,rey,66.53,7,85,9
 Umbria,85,scarif-rebel-pathfinder,77.3,7,85,9
 Umbria,85,ima-gun-di,74.72,7,85,9
 Umbria,85,dengar,73.76,7,85,9
-Umbria,85,jawa-engineer,72.9,7,85,9
+Umbria,85,jawa-engineer,73.71,7,85,9
 Umbria,85,first-order-tie-pilot,66.06,7,85,8
 Umbria,85,first-order-stormtrooper,64.75,7,85,8
 Umbria,85,captain-phasma,62.1,7,85,8
 Umbria,85,zam-wesell,70.63,7,85,8
+Umbria,85,chief-nebit,70.42,7,85,8
+Umbria,85,luminara-unduli,61.82,7,85,9
 Umbria,85,ig-86-sentinel-droid,72.56,7,85,8
 Umbria,85,dathcha,69.43,7,85,8
-Umbria,85,chief-nebit,69.22,7,85,8
 Umbria,85,first-order-officer,70.75,7,85,8
 Umbria,85,luke-skywalker-farmboy,53.64,7,85,8
 Umbria,85,grand-moff-tarkin,51.8,7,85,7
@@ -502,7 +506,7 @@ Umbria,85,ct-7567-rex,62.42,7,85,8
 Umbria,85,obi-wan-kenobi-old-ben,47.02,7,85,7
 Umbria,85,k-2so,53.56,7,85,7
 Umbria,85,hoth-rebel-scout,62.91,7,85,7
-Umbria,85,baze-malbus,56.57,6,85,8
+Umbria,85,baze-malbus,57.24,6,85,8
 Umbria,85,mace-windu,57.78,7,85,7
 Umbria,85,ezra-bridger,57.73,7,85,7
 Umbria,85,jedi-consular,56.4,7,80,8
@@ -513,14 +517,13 @@ Umbria,85,cad-bane,47.91,7,79,7
 Umbria,85,garazeb-zeb-orrelios,44.57,7,85,4
 Umbria,85,captain-han-solo,43.78,5,85,7
 Umbria,85,hoth-rebel-soldier,44.41,5,85,7
-Umbria,85,resistance-trooper,44.42,7,85,4
 Umbria,85,chief-chirpa,35.91,7,52,7
 Umbria,85,ct-5555-fives,35.81,7,51,7
 Umbria,85,resistance-pilot,41.73,7,85,2
+Umbria,85,bb-8,36.96,7,60,6
 Umbria,85,count-dooku,33.55,6,85,6
 Umbria,85,han-solo,32.82,7,53,5
 Umbria,85,cc-2224-cody,32.53,7,50,5
-Umbria,85,bb-8,34.51,7,60,4
 Umbria,85,snowtrooper,36.12,7,50,5
 Umbria,85,chopper,34.48,7,60,4
 Umbria,85,hera-syndulla,34.06,5,85,7
@@ -544,10 +547,10 @@ Umbria,85,plo-koon,13.51,5,50,2
 Umbria,85,geonosian-soldier,12.32,3,53,4
 Umbria,85,veteran-smuggler-chewbacca,11.22,3,40,4
 Umbria,85,veteran-smuggler-han-solo,9.99,3,40,4
+Umbria,85,coruscant-underworld-police,11.6,4,40,3
 Umbria,85,ahsoka-tano-fulcrum,8.81,4,40,3
 Umbria,85,pao,8.65,4,40,2
 Umbria,85,urorrurrr,9.64,4,40,2
-Umbria,85,coruscant-underworld-police,9.61,3,40,3
 Umbria,85,general-grievous,7.73,4,40,1
 Umbria,85,magmatrooper,8.25,4,40,1
 Umbria,85,stormtrooper,7.3,4,40,1
@@ -607,8 +610,8 @@ Tigrawallace,85,mace-windu,68.23,7,85,8
 Tigrawallace,85,captain-phasma,59.81,7,85,8
 Tigrawallace,85,asajj-ventress,52.02,7,85,8
 Tigrawallace,85,barriss-offee,59.63,7,85,8
+Tigrawallace,85,garazeb-zeb-orrelios,66.84,7,85,8
 Tigrawallace,85,kanan-jarrus,66.15,7,85,8
-Tigrawallace,85,garazeb-zeb-orrelios,66.15,7,85,8
 Tigrawallace,85,obi-wan-kenobi-old-ben,50.54,7,85,8
 Tigrawallace,85,clone-wars-chewbacca,58.05,7,85,8
 Tigrawallace,85,jawa-scavenger,65.96,7,85,8
@@ -629,12 +632,12 @@ Tigrawallace,85,clone-sergeant-phase-i,53.5,7,60,8
 Tigrawallace,85,snowtrooper,50.01,7,64,7
 Tigrawallace,85,jedi-consular,49.07,7,69,8
 Tigrawallace,85,sith-trooper,49.01,5,85,7
+Tigrawallace,85,ct-7567-rex,44.02,7,61,7
 Tigrawallace,85,darth-nihilus,33.38,4,85,7
 Tigrawallace,85,cc-2224-cody,37.99,7,60,7
-Tigrawallace,85,ct-7567-rex,41.93,7,60,7
+Tigrawallace,85,ct-21-0408-echo,42.57,7,60,7
 Tigrawallace,85,hoth-rebel-scout,43.2,6,85,7
 Tigrawallace,85,teebo,40.13,7,85,2
-Tigrawallace,85,ct-21-0408-echo,39.7,7,60,7
 Tigrawallace,85,ewok-elder,39.49,7,85,2
 Tigrawallace,85,old-daka,37.25,5,74,7
 Tigrawallace,85,hoth-rebel-soldier,34.81,4,85,8
@@ -676,7 +679,6 @@ Tigrawallace,85,paploo,3.39,3,1,1
 Tigrawallace,85,ahsoka-tano-fulcrum,3.39,3,1,1
 Tigrawallace,85,ugnaught,4.04,3,1,1
 Tigrawallace,85,logray,3.39,3,1,1
-Tigrawallace,85,veteran-smuggler-chewbacca,3.81,3,1,1
 Tigrawallace,85,wicket,3.39,3,1,1
 Tigrawallace,85,director-krennic,3.3,3,1,1
 Tigrawallace,85,veteran-smuggler-han-solo,3.39,3,1,1
@@ -919,7 +921,6 @@ LyonHart,85,biggs-darklighter,61.92,7,85,8
 LyonHart,85,wedge-antilles,59.58,7,85,8
 LyonHart,85,clone-wars-chewbacca,47.58,7,75,8
 LyonHart,85,b2-super-battle-droid,54.49,6,85,8
-LyonHart,85,cad-bane,52.2,7,80,7
 LyonHart,85,tie-fighter-pilot,51.52,6,80,8
 LyonHart,85,count-dooku,42.86,6,80,8
 LyonHart,85,jyn-erso,37.04,7,75,7
@@ -1139,19 +1140,19 @@ Falstaff,85,commander-luke-skywalker,77.96,7,85,12
 Falstaff,85,r2-d2,71.92,7,85,11
 Falstaff,85,jyn-erso,70.77,7,85,11
 Falstaff,85,princess-leia,78.74,7,85,11
+Falstaff,85,wedge-antilles,87.74,7,85,11
 Falstaff,85,grand-master-yoda,67.02,7,85,10
-Falstaff,85,wedge-antilles,86.61,7,85,11
 Falstaff,85,biggs-darklighter,89.27,7,85,11
-Falstaff,85,admiral-ackbar,84.8,7,85,10
+Falstaff,85,admiral-ackbar,85.15,7,85,10
 Falstaff,85,luminara-unduli,72.71,7,83,10
 Falstaff,85,ima-gun-di,82.31,7,85,10
 Falstaff,85,rey,71.29,7,85,10
+Falstaff,85,lando-calrissian,81.94,7,83,10
 Falstaff,85,darth-maul,71.16,7,85,9
 Falstaff,85,emperor-palpatine,78.32,7,85,9
 Falstaff,85,qui-gon-jinn,70.24,7,85,10
 Falstaff,85,ct-21-0408-echo,79.73,7,85,9
 Falstaff,85,aayla-secura,79.49,7,85,10
-Falstaff,85,lando-calrissian,80.03,7,83,10
 Falstaff,85,jedi-knight-anakin,77.87,7,83,9
 Falstaff,85,ahsoka-tano,77.53,7,82,10
 Falstaff,85,darth-vader,68.06,7,85,9
@@ -1161,7 +1162,7 @@ Falstaff,85,captain-phasma,65.38,7,80,9
 Falstaff,85,ct-5555-fives,64.99,7,85,9
 Falstaff,85,count-dooku,64.42,7,82,9
 Falstaff,85,luke-skywalker-farmboy,57.9,7,85,9
-Falstaff,85,kylo-ren,64.03,7,82,8
+Falstaff,85,kylo-ren,64.12,7,82,8
 Falstaff,85,mace-windu,72.77,7,82,10
 Falstaff,85,ct-7567-rex,71.69,7,85,8
 Falstaff,85,stormtrooper-han,62.48,7,85,8
@@ -1203,9 +1204,9 @@ Falstaff,85,bb-8,25.65,6,55,6
 Falstaff,85,jedi-knight-guardian,27.31,6,58,5
 Falstaff,85,dathcha,26.3,5,60,6
 Falstaff,85,ewok-scout,26.63,6,53,5
+Falstaff,85,resistance-trooper,26.5,5,61,7
 Falstaff,85,talia,24.16,4,59,7
 Falstaff,85,hk-47,23.69,6,40,5
-Falstaff,85,resistance-trooper,24.47,5,60,6
 Falstaff,85,hoth-rebel-soldier,20.79,4,60,6
 Falstaff,85,hoth-rebel-scout,18.8,5,46,5
 Falstaff,85,tie-fighter-pilot,18.21,4,50,7
@@ -1272,7 +1273,6 @@ Bayne,85,wedge-antilles,75.03,7,85,8
 Bayne,85,tie-fighter-pilot,77.57,7,85,9
 Bayne,85,princess-leia,61.84,7,85,8
 Bayne,85,ahsoka-tano,70.22,7,85,9
-Bayne,85,boba-fett,58.56,7,83,8
 Bayne,85,royal-guard,69.23,7,85,8
 Bayne,85,cad-bane,66.83,7,84,8
 Bayne,85,luminara-unduli,58.56,7,80,8
@@ -1283,6 +1283,7 @@ Bayne,85,jedi-consular,64.54,7,85,8
 Bayne,85,asajj-ventress,46.96,7,71,8
 Bayne,85,captain-phasma,50.67,7,70,8
 Bayne,85,greedo,55.28,6,85,8
+Bayne,85,r2-d2,41.88,7,70,6
 Bayne,85,qui-gon-jinn,47.9,7,70,7
 Bayne,85,clone-wars-chewbacca,43.67,6,75,8
 Bayne,85,rey,37.52,6,70,8
@@ -1347,6 +1348,7 @@ JJ,85,biggs-darklighter,87.98,7,85,11
 JJ,85,princess-leia,74.26,7,85,10
 JJ,85,cassian-andor,72.57,7,85,10
 JJ,85,ewok-elder,83.45,7,85,10
+JJ,85,ct-5555-fives,70.28,7,85,9
 JJ,85,teebo,76.38,7,85,9
 JJ,85,luke-skywalker-farmboy,60.88,7,85,9
 JJ,85,admiral-ackbar,75.52,7,85,8
@@ -1385,7 +1387,6 @@ JJ,85,tie-fighter-pilot,25.87,4,65,5
 JJ,85,han-solo,21.83,6,40,5
 JJ,85,barriss-offee,21.47,5,55,7
 JJ,85,sun-fac,19.92,6,36,3
-JJ,85,hoth-rebel-scout,20.41,6,50,3
 JJ,85,resistance-pilot,20.22,4,50,5
 JJ,85,kanan-jarrus,18.73,5,50,5
 JJ,85,first-order-tie-pilot,,3,57,7
@@ -1531,99 +1532,97 @@ savvyjr,85,ugnaught,2.69,2,1,1
 savvyjr,85,mob-enforcer,2.66,2,1,1
 savvyjr,85,resistance-trooper,2.69,2,1,1
 savvyjr,85,gar-saxon,2.26,2,1,1
-jatic,85,boba-fett,85.41,7,85,10
-jatic,85,darth-vader,86.62,7,85,10
-jatic,85,emperor-palpatine,88.13,7,85,10
-jatic,85,tie-fighter-pilot,88.37,7,85,11
-jatic,85,wedge-antilles,85.21,7,85,10
-jatic,85,biggs-darklighter,85.75,7,85,10
-jatic,85,r2-d2,62.31,7,85,9
-jatic,85,grand-master-yoda,59.9,7,85,9
-jatic,85,royal-guard,80.49,7,85,9
-jatic,85,teebo,76.69,7,85,8
-jatic,85,asajj-ventress,58.97,7,85,9
-jatic,85,rey,67.06,7,85,8
-jatic,85,poe-dameron,75.66,7,85,8
-jatic,85,jedi-consular,77.32,7,85,9
-jatic,85,darth-maul,65.68,7,85,8
-jatic,85,luminara-unduli,64.86,7,85,8
-jatic,85,princess-leia,63.92,7,85,8
-jatic,85,ewok-scout,74.95,7,85,8
-jatic,85,ct-7567-rex,71.83,7,85,8
-jatic,85,admiral-ackbar,70.88,7,85,8
-jatic,85,nightsister-initiate,72.56,7,85,8
-jatic,85,jawa-engineer,68.93,7,85,9
-jatic,85,luke-skywalker-farmboy,54.04,7,85,8
-jatic,85,captain-phasma,59.81,7,85,8
-jatic,85,barriss-offee,59.54,7,85,8
-jatic,85,ig-88,67.49,7,85,8
-jatic,85,darth-sidious,58.5,7,85,8
-jatic,85,clone-wars-chewbacca,58.39,7,85,8
-jatic,85,mace-windu,66.38,7,85,8
-jatic,85,talia,66.21,7,85,8
-jatic,85,clone-sergeant-phase-i,68.06,7,85,8
-jatic,85,scarif-rebel-pathfinder,67.88,7,85,8
-jatic,85,old-daka,65.51,7,85,8
-jatic,85,geonosian-soldier,67.36,7,85,8
-jatic,85,cad-bane,64.82,7,85,8
-jatic,85,chief-nebit,64.77,7,85,8
-jatic,85,greedo,64.72,7,85,8
-jatic,85,snowtrooper,66.44,7,85,8
-jatic,85,dathcha,64.12,7,85,8
-jatic,85,ig-86-sentinel-droid,65.91,7,85,8
-jatic,85,count-dooku,53.63,6,85,8
-jatic,85,ahsoka-tano,60.94,7,85,8
-jatic,85,k-2so,50.42,7,85,8
-jatic,85,ig-100-magnaguard,58.18,7,85,8
-jatic,85,jawa,57.62,7,85,8
-jatic,85,bistan,55.44,7,85,8
-jatic,85,jyn-erso,42.03,7,85,8
-jatic,85,grand-moff-tarkin,40.72,7,85,7
-jatic,85,first-order-tie-pilot,48.4,6,85,8
-jatic,85,han-solo,44.38,5,85,8
-jatic,85,jawa-scavenger,44.31,5,85,7
-jatic,85,jedi-knight-guardian,42.77,7,60,7
-jatic,85,first-order-officer,29.54,5,80,6
-jatic,85,garazeb-zeb-orrelios,24.86,6,50,5
-jatic,85,kanan-jarrus,24.48,6,50,5
-jatic,85,gamorrean-guard,25.25,5,65,7
-jatic,85,general-grievous,22.88,4,60,7
-jatic,85,ewok-elder,22.04,5,51,6
-jatic,85,kylo-ren,17.03,4,50,6
-jatic,85,resistance-pilot,19.41,4,52,6
-jatic,85,hera-syndulla,18.14,4,50,5
-jatic,85,chirrut-imwe,17.43,4,50,6
-jatic,85,sabine-wren,17.98,5,50,5
-jatic,85,chopper,17.39,5,50,5
-jatic,85,resistance-trooper,17.22,4,45,6
-jatic,85,bodhi-rook,13.4,6,1,1
-jatic,85,poggle-the-lesser,14.93,4,38,5
-jatic,85,ezra-bridger,14.71,4,50,5
-jatic,85,first-order-stormtrooper,11.74,2,50,5
-jatic,85,dengar,12.62,2,50,5
-jatic,85,hoth-rebel-scout,9.85,4,30,3
-jatic,85,director-krennic,7.73,3,30,4
-jatic,85,cassian-andor,7.63,5,1,1
-jatic,85,sith-trooper,8.85,3,30,3
-jatic,85,chief-chirpa,7.05,4,50,2
-jatic,85,death-trooper,7.03,2,30,4
-jatic,85,sith-assassin,8.11,3,30,3
-jatic,85,stormtrooper,5.3,4,1,1
-jatic,85,hoth-rebel-soldier,5.98,4,1,1
-jatic,85,veteran-smuggler-chewbacca,3.81,3,1,1
-jatic,85,imperial-super-commando,3.99,3,1,1
-jatic,85,gar-saxon,3.39,3,1,1
-jatic,85,plo-koon,3.86,3,1,1
-jatic,85,ahsoka-tano-fulcrum,3.39,3,1,1
-jatic,85,pao,3.39,3,1,1
-jatic,85,darth-nihilus,2.95,3,1,1
-jatic,85,logray,3.39,3,1,1
-jatic,85,wicket,3.39,3,1,1
-jatic,85,general-veers,3.39,3,1,1
-jatic,85,ct-5555-fives,3.39,3,1,1
-jatic,85,paploo,3.39,3,1,1
-jatic,85,veteran-smuggler-han-solo,3.39,3,1,1
-jatic,85,magmatrooper,1.9,1,1,1
+ÙÎÏÉ¨c,85,boba-fett,85.41,7,85,10
+ÙÎÏÉ¨c,85,darth-vader,86.62,7,85,10
+ÙÎÏÉ¨c,85,emperor-palpatine,88.13,7,85,10
+ÙÎÏÉ¨c,85,tie-fighter-pilot,88.37,7,85,11
+ÙÎÏÉ¨c,85,wedge-antilles,85.21,7,85,10
+ÙÎÏÉ¨c,85,biggs-darklighter,85.75,7,85,10
+ÙÎÏÉ¨c,85,r2-d2,62.31,7,85,9
+ÙÎÏÉ¨c,85,grand-master-yoda,59.9,7,85,9
+ÙÎÏÉ¨c,85,royal-guard,80.49,7,85,9
+ÙÎÏÉ¨c,85,teebo,76.69,7,85,8
+ÙÎÏÉ¨c,85,asajj-ventress,58.97,7,85,9
+ÙÎÏÉ¨c,85,rey,67.06,7,85,8
+ÙÎÏÉ¨c,85,poe-dameron,75.66,7,85,8
+ÙÎÏÉ¨c,85,jedi-consular,77.32,7,85,9
+ÙÎÏÉ¨c,85,darth-maul,65.68,7,85,8
+ÙÎÏÉ¨c,85,luminara-unduli,64.86,7,85,8
+ÙÎÏÉ¨c,85,princess-leia,63.92,7,85,8
+ÙÎÏÉ¨c,85,ewok-scout,74.95,7,85,8
+ÙÎÏÉ¨c,85,ct-7567-rex,71.83,7,85,8
+ÙÎÏÉ¨c,85,admiral-ackbar,70.88,7,85,8
+ÙÎÏÉ¨c,85,nightsister-initiate,72.56,7,85,8
+ÙÎÏÉ¨c,85,jawa-engineer,68.93,7,85,9
+ÙÎÏÉ¨c,85,luke-skywalker-farmboy,54.04,7,85,8
+ÙÎÏÉ¨c,85,captain-phasma,59.81,7,85,8
+ÙÎÏÉ¨c,85,ig-88,67.49,7,85,8
+ÙÎÏÉ¨c,85,darth-sidious,58.5,7,85,8
+ÙÎÏÉ¨c,85,clone-wars-chewbacca,58.39,7,85,8
+ÙÎÏÉ¨c,85,mace-windu,66.38,7,85,8
+ÙÎÏÉ¨c,85,talia,66.21,7,85,8
+ÙÎÏÉ¨c,85,clone-sergeant-phase-i,68.06,7,85,8
+ÙÎÏÉ¨c,85,scarif-rebel-pathfinder,67.88,7,85,8
+ÙÎÏÉ¨c,85,old-daka,65.51,7,85,8
+ÙÎÏÉ¨c,85,geonosian-soldier,67.36,7,85,8
+ÙÎÏÉ¨c,85,cad-bane,64.82,7,85,8
+ÙÎÏÉ¨c,85,chief-nebit,64.77,7,85,8
+ÙÎÏÉ¨c,85,greedo,64.72,7,85,8
+ÙÎÏÉ¨c,85,snowtrooper,66.44,7,85,8
+ÙÎÏÉ¨c,85,dathcha,64.12,7,85,8
+ÙÎÏÉ¨c,85,ig-86-sentinel-droid,65.91,7,85,8
+ÙÎÏÉ¨c,85,count-dooku,53.63,6,85,8
+ÙÎÏÉ¨c,85,ahsoka-tano,60.94,7,85,8
+ÙÎÏÉ¨c,85,k-2so,50.42,7,85,8
+ÙÎÏÉ¨c,85,ig-100-magnaguard,58.18,7,85,8
+ÙÎÏÉ¨c,85,jawa,57.62,7,85,8
+ÙÎÏÉ¨c,85,bistan,55.44,7,85,8
+ÙÎÏÉ¨c,85,jyn-erso,42.03,7,85,8
+ÙÎÏÉ¨c,85,grand-moff-tarkin,40.72,7,85,7
+ÙÎÏÉ¨c,85,first-order-tie-pilot,48.4,6,85,8
+ÙÎÏÉ¨c,85,han-solo,44.38,5,85,8
+ÙÎÏÉ¨c,85,jawa-scavenger,44.31,5,85,7
+ÙÎÏÉ¨c,85,jedi-knight-guardian,42.77,7,60,7
+ÙÎÏÉ¨c,85,first-order-officer,29.54,5,80,6
+ÙÎÏÉ¨c,85,garazeb-zeb-orrelios,24.86,6,50,5
+ÙÎÏÉ¨c,85,kanan-jarrus,24.48,6,50,5
+ÙÎÏÉ¨c,85,gamorrean-guard,25.25,5,65,7
+ÙÎÏÉ¨c,85,general-grievous,22.88,4,60,7
+ÙÎÏÉ¨c,85,ewok-elder,22.04,5,51,6
+ÙÎÏÉ¨c,85,resistance-pilot,19.41,4,52,6
+ÙÎÏÉ¨c,85,hera-syndulla,18.14,4,50,5
+ÙÎÏÉ¨c,85,chirrut-imwe,17.43,4,50,6
+ÙÎÏÉ¨c,85,sabine-wren,17.98,5,50,5
+ÙÎÏÉ¨c,85,chopper,17.39,5,50,5
+ÙÎÏÉ¨c,85,resistance-trooper,17.22,4,45,6
+ÙÎÏÉ¨c,85,bodhi-rook,13.4,6,1,1
+ÙÎÏÉ¨c,85,poggle-the-lesser,14.93,4,38,5
+ÙÎÏÉ¨c,85,ezra-bridger,14.71,4,50,5
+ÙÎÏÉ¨c,85,first-order-stormtrooper,11.74,2,50,5
+ÙÎÏÉ¨c,85,dengar,12.62,2,50,5
+ÙÎÏÉ¨c,85,hoth-rebel-scout,9.85,4,30,3
+ÙÎÏÉ¨c,85,director-krennic,7.73,3,30,4
+ÙÎÏÉ¨c,85,cassian-andor,7.63,5,1,1
+ÙÎÏÉ¨c,85,sith-trooper,8.85,3,30,3
+ÙÎÏÉ¨c,85,chief-chirpa,7.05,4,50,2
+ÙÎÏÉ¨c,85,death-trooper,7.03,2,30,4
+ÙÎÏÉ¨c,85,sith-assassin,8.11,3,30,3
+ÙÎÏÉ¨c,85,stormtrooper,5.3,4,1,1
+ÙÎÏÉ¨c,85,hoth-rebel-soldier,5.98,4,1,1
+ÙÎÏÉ¨c,85,veteran-smuggler-chewbacca,3.81,3,1,1
+ÙÎÏÉ¨c,85,imperial-super-commando,3.99,3,1,1
+ÙÎÏÉ¨c,85,gar-saxon,3.39,3,1,1
+ÙÎÏÉ¨c,85,plo-koon,3.86,3,1,1
+ÙÎÏÉ¨c,85,ahsoka-tano-fulcrum,3.39,3,1,1
+ÙÎÏÉ¨c,85,pao,3.39,3,1,1
+ÙÎÏÉ¨c,85,darth-nihilus,2.95,3,1,1
+ÙÎÏÉ¨c,85,logray,3.39,3,1,1
+ÙÎÏÉ¨c,85,wicket,3.39,3,1,1
+ÙÎÏÉ¨c,85,general-veers,3.39,3,1,1
+ÙÎÏÉ¨c,85,ct-5555-fives,3.39,3,1,1
+ÙÎÏÉ¨c,85,paploo,3.39,3,1,1
+ÙÎÏÉ¨c,85,veteran-smuggler-han-solo,3.39,3,1,1
+ÙÎÏÉ¨c,85,magmatrooper,1.9,1,1,1
 Wagg Dogg Guv,85,qui-gon-jinn,87.69,7,85,10
 Wagg Dogg Guv,85,biggs-darklighter,88.49,7,85,11
 Wagg Dogg Guv,85,lando-calrissian,85.58,7,85,10
@@ -1689,7 +1688,6 @@ Wagg Dogg Guv,85,veteran-smuggler-chewbacca,3.81,3,1,1
 Wagg Dogg Guv,85,princess-leia,3.39,3,1,1
 Wagg Dogg Guv,85,chopper,2.91,2,2,2
 Wagg Dogg Guv,85,pao,2.59,2,2,2
-Wagg Dogg Guv,85,bistan,2.64,2,1,1
 Wagg Dogg Guv,85,gar-saxon,2.32,2,1,1
 Wagg Dogg Guv,85,imperial-super-commando,2.73,2,1,1
 Wagg Dogg Guv,85,ahsoka-tano-fulcrum,2.26,2,1,1
@@ -1698,7 +1696,7 @@ Wagg Dogg Guv,85,ig-100-magnaguard,2.66,2,1,1
 Wagg Dogg Guv,85,magmatrooper,1.78,1,1,1
 Silverkakari,83,emperor-palpatine,76.4,7,80,9
 Silverkakari,83,wedge-antilles,76.12,7,81,9
-Silverkakari,83,stormtrooper-han,64.89,7,80,9
+Silverkakari,83,stormtrooper-han,64.95,7,80,9
 Silverkakari,83,ezra-bridger,70.7,7,81,8
 Silverkakari,83,jyn-erso,53.33,7,80,8
 Silverkakari,83,k-2so,59.22,7,80,8
@@ -1716,8 +1714,8 @@ Silverkakari,83,kylo-ren,46.82,7,74,7
 Silverkakari,83,hera-syndulla,53.04,7,77,7
 Silverkakari,83,chopper,50.4,7,77,7
 Silverkakari,83,darth-vader,44.59,6,76,8
+Silverkakari,83,garazeb-zeb-orrelios,50.6,7,77,7
 Silverkakari,83,chief-chirpa,44.47,7,73,7
-Silverkakari,83,garazeb-zeb-orrelios,49.17,7,74,7
 Silverkakari,83,magmatrooper,46.47,7,66,7
 Silverkakari,83,stormtrooper,39.33,7,54,7
 Silverkakari,83,captain-phasma,35.96,7,50,6
@@ -1725,8 +1723,8 @@ Silverkakari,83,hoth-rebel-scout,40.82,7,47,6
 Silverkakari,83,ct-21-0408-echo,38.47,6,65,7
 Silverkakari,83,admiral-ackbar,38.42,6,68,7
 Silverkakari,83,darth-nihilus,28.23,5,70,7
+Silverkakari,83,han-solo,30.18,5,76,6
 Silverkakari,83,general-veers,29.42,6,53,6
-Silverkakari,83,han-solo,29.28,5,76,6
 Silverkakari,83,cc-2224-cody,28.43,6,51,7
 Silverkakari,83,ig-88,32.28,4,81,7
 Silverkakari,83,death-trooper,28.27,5,72,7
@@ -1737,7 +1735,7 @@ Silverkakari,83,luke-skywalker-farmboy,20.47,6,44,5
 Silverkakari,83,clone-wars-chewbacca,22.43,5,67,6
 Silverkakari,83,clone-sergeant-phase-i,25.37,5,51,6
 Silverkakari,83,obi-wan-kenobi-old-ben,17.86,6,44,5
-Silverkakari,83,shoretrooper,23.38,5,51,6
+Silverkakari,83,shoretrooper,22.82,5,51,6
 Silverkakari,83,old-daka,20.13,4,50,6
 Silverkakari,83,grand-moff-tarkin,13.23,4,56,5
 Silverkakari,83,snowtrooper,17.8,5,37,5
@@ -1755,16 +1753,16 @@ Silverkakari,83,talia,12.57,4,50,4
 Silverkakari,83,tie-fighter-pilot,12.27,3,41,5
 Silverkakari,83,jedi-consular,11.97,4,48,4
 Silverkakari,83,hoth-rebel-soldier,11.91,4,41,3
-Silverkakari,83,jawa-scavenger,10.29,5,21,2
+Silverkakari,83,jawa-scavenger,11.44,5,21,3
 Silverkakari,83,geonosian-soldier,10.04,2,38,4
 Silverkakari,83,veteran-smuggler-chewbacca,9.12,3,39,3
 Silverkakari,83,ewok-scout,9.4,4,36,3
 Silverkakari,83,jawa,9.05,2,31,4
 Silverkakari,83,hk-47,8.68,5,1,1
+Silverkakari,83,dathcha,8.54,4,21,3
 Silverkakari,83,barriss-offee,7.43,4,17,3
 Silverkakari,83,veteran-smuggler-han-solo,6.85,3,38,2
 Silverkakari,83,jawa-engineer,7.4,4,21,2
-Silverkakari,83,dathcha,7.21,4,21,2
 Silverkakari,83,first-order-stormtrooper,6.48,4,15,2
 Silverkakari,83,resistance-pilot,7.1,2,43,4
 Silverkakari,83,nightsister-initiate,6.34,2,44,3
@@ -1797,7 +1795,7 @@ Silverkakari,83,ahsoka-tano,2.57,2,1,1
 Silverkakari,83,kit-fisto,2.57,2,1,1
 Silverkakari,83,scarif-rebel-pathfinder,2.66,2,1,1
 Yamz,85,princess-leia,72.14,7,85,10
-Yamz,85,wedge-antilles,79.27,7,85,10
+Yamz,85,wedge-antilles,79.29,7,85,10
 Yamz,85,darth-vader,69.16,7,85,10
 Yamz,85,ahsoka-tano,78.35,7,85,10
 Yamz,85,boba-fett,65.14,7,80,9
@@ -1820,7 +1818,7 @@ Yamz,85,jawa-scavenger,52.19,7,64,8
 Yamz,85,plo-koon,50.94,7,65,8
 Yamz,85,grand-moff-tarkin,38.58,6,70,8
 Yamz,85,grand-master-yoda,36.85,7,65,8
-Yamz,85,emperor-palpatine,46.47,7,65,8
+Yamz,85,emperor-palpatine,46.48,7,65,8
 Yamz,85,snowtrooper,47.99,6,70,8
 Yamz,85,royal-guard,47.62,6,70,8
 Yamz,85,jedi-consular,45.47,6,68,8
@@ -1865,28 +1863,28 @@ Yamz,85,jedi-knight-guardian,10.98,4,38,4
 Yamz,85,ewok-scout,10.79,5,39,2
 Yamz,85,chopper,9.8,3,30,4
 Yamz,85,ct-5555-fives,7.95,5,2,2
+Yamz,85,han-solo,7.63,5,1,1
 Yamz,85,jyn-erso,6.64,5,1,1
 Yamz,85,ct-7567-rex,8.68,5,1,1
-Yamz,85,stormtrooper,5.41,4,2,1
 Yamz,85,cc-2224-cody,5.09,4,1,1
-Yamz,85,hoth-rebel-soldier,5.98,4,1,1
 Yamz,85,resistance-trooper,6.06,4,1,1
-Yamz,85,pao,3.39,3,1,1
+Yamz,85,hoth-rebel-soldier,5.98,4,1,1
+Yamz,85,savage-opress,3.39,3,1,1
+Yamz,85,wicket,3.39,3,1,1
 Yamz,85,paploo,3.39,3,1,1
-Yamz,85,veteran-smuggler-han-solo,3.39,3,1,1
-Yamz,85,veteran-smuggler-chewbacca,3.81,3,1,1
 Yamz,85,logray,3.39,3,1,1
+Yamz,85,veteran-smuggler-chewbacca,3.81,3,1,1
 Yamz,85,chief-chirpa,3.39,3,1,1
 Yamz,85,chirrut-imwe,3.74,3,1,1
-Yamz,85,wicket,3.39,3,1,1
-Yamz,85,savage-opress,3.39,3,1,1
+Yamz,85,veteran-smuggler-han-solo,3.39,3,1,1
+Yamz,85,pao,3.39,3,1,1
 Yamz,85,death-trooper,2.32,2,1,1
-Yamz,85,imperial-super-commando,2.73,2,1,1
 Yamz,85,kit-fisto,2.64,2,1,1
+Yamz,85,imperial-super-commando,2.73,2,1,1
 Yamz,85,gar-saxon,2.26,2,1,1
 Yamz,85,scarif-rebel-pathfinder,2.66,2,1,1
-Yamz,85,bodhi-rook,2.26,2,1,1
 Yamz,85,resistance-pilot,2.69,2,1,1
+Yamz,85,bodhi-rook,2.26,2,1,1
 Yamz,85,magmatrooper,1.84,1,1,1
 Vader000007,85,kylo-ren,72.92,7,85,10
 Vader000007,85,lando-calrissian,77.86,7,85,9
@@ -1914,6 +1912,7 @@ Vader000007,85,jedi-consular,59.84,7,76,8
 Vader000007,85,cad-bane,56.79,7,80,7
 Vader000007,85,teebo,55.85,7,73,7
 Vader000007,85,k-2so,48.9,7,70,8
+Vader000007,85,darth-nihilus,42.21,5,85,8
 Vader000007,85,stormtrooper,49.79,7,72,7
 Vader000007,85,count-dooku,47.43,6,84,8
 Vader000007,85,ahsoka-tano,53.66,7,74,7
@@ -1931,15 +1930,14 @@ Vader000007,85,death-trooper,37.39,6,72,7
 Vader000007,85,scarif-rebel-pathfinder,43.96,6,74,7
 Vader000007,85,r2-d2,32.42,6,83,6
 Vader000007,85,resistance-pilot,42.05,7,50,6
-Vader000007,85,clone-wars-chewbacca,34.39,6,80,6
 Vader000007,85,grand-moff-tarkin,29.04,6,68,6
 Vader000007,85,ahsoka-tano-fulcrum,32.25,5,70,7
 Vader000007,85,jawa-scavenger,34.7,6,63,7
 Vader000007,85,veteran-smuggler-han-solo,29.56,3,85,7
+Vader000007,85,first-order-stormtrooper,30.56,5,74,7
 Vader000007,85,royal-guard,34.27,6,60,6
-Vader000007,85,first-order-tie-pilot,,4,76,7
+Vader000007,85,first-order-tie-pilot,30.01,4,76,7
 Vader000007,85,aayla-secura,30.85,5,71,6
-Vader000007,85,first-order-stormtrooper,27.91,4,74,7
 Vader000007,85,obi-wan-kenobi-old-ben,22.71,4,65,7
 Vader000007,85,baze-malbus,28.68,4,70,7
 Vader000007,85,admiral-ackbar,28.66,6,62,4
@@ -1977,19 +1975,19 @@ Vader000007,85,sith-trooper,15.98,3,62,5
 Vader000007,85,jyn-erso,11.71,5,50,3
 Vader000007,85,bistan,15.08,4,50,5
 Vader000007,85,dengar,14.81,4,50,4
+Vader000007,85,sun-fac,14.47,5,45,3
 Vader000007,85,resistance-trooper,14.15,4,50,4
 Vader000007,85,logray,11.36,3,50,4
 Vader000007,85,veteran-smuggler-chewbacca,12.38,3,50,4
 Vader000007,85,finn,10.84,4,50,3
+Vader000007,85,pao,10.56,4,50,3
 Vader000007,85,director-krennic,9.98,3,40,4
 Vader000007,85,plo-koon,11.57,4,45,3
-Vader000007,85,sun-fac,11.57,4,45,3
 Vader000007,85,sith-assassin,11.63,3,42,4
 Vader000007,85,magmatrooper,11.32,3,37,4
 Vader000007,85,paploo,9.44,3,50,3
 Vader000007,85,wicket,9.35,4,50,2
 Vader000007,85,imperial-super-commando,10.66,3,30,4
-Vader000007,85,pao,8.87,3,50,3
 Vader000007,85,nightsister-acolyte,7.71,2,20,4
 Vader000007,85,ig-88,7.38,3,23,3
 Vader000007,85,poggle-the-lesser,6.99,4,10,2
@@ -2000,62 +1998,62 @@ Vader000007,85,darth-sidious,5.09,4,1,1
 Vader000007,85,lobot,5.79,4,1,1
 Vader000007,85,old-daka,5.79,4,1,1
 Vader000007,85,zam-wesell,3.92,3,1,1
-Jmar,80,grand-moff-tarkin,57.11,7,80,9
-Jmar,80,tie-fighter-pilot,74.79,7,80,10
-Jmar,80,boba-fett,60.13,7,80,8
-Jmar,80,royal-guard,65.46,7,80,8
-Jmar,80,ahsoka-tano,62.76,7,75,8
-Jmar,80,darth-vader,54.87,6,80,9
-Jmar,80,lando-calrissian,62.63,7,79,7
-Jmar,80,stormtrooper-han,54.28,7,79,7
-Jmar,80,emperor-palpatine,49.45,5,80,8
-Jmar,80,stormtrooper,45.43,7,71,7
-Jmar,80,captain-phasma,40.11,7,65,7
-Jmar,80,wedge-antilles,43.82,5,79,8
-Jmar,80,mace-windu,43.34,7,66,6
-Jmar,80,biggs-darklighter,42.77,5,80,8
-Jmar,80,luke-skywalker-farmboy,19.46,5,65,6
-Jmar,80,jedi-consular,22.16,3,61,7
-Jmar,80,r2-d2,16.35,5,50,6
-Jmar,80,first-order-tie-pilot,18.76,3,65,7
-Jmar,80,sun-fac,20.17,4,53,7
-Jmar,80,geonosian-soldier,18.89,2,60,7
-Jmar,80,clone-wars-chewbacca,15.53,4,62,5
-Jmar,80,ct-7567-rex,17.29,5,53,4
-Jmar,80,clone-sergeant-phase-i,15.9,3,62,5
-Jmar,80,geonosian-spy,14.8,4,53,5
-Jmar,80,resistance-pilot,14.55,2,52,6
-Jmar,80,snowtrooper,13.22,4,49,4
-Jmar,80,ewok-scout,10.25,4,44,2
-Jmar,80,kanan-jarrus,9.74,2,53,3
-Jmar,80,darth-maul,8.54,5,11,2
-Jmar,80,veteran-smuggler-han-solo,7.93,3,53,2
-Jmar,80,veteran-smuggler-chewbacca,8.92,3,53,2
-Jmar,80,sabine-wren,8.65,2,53,2
-Jmar,80,chief-chirpa,7.42,4,44,2
-Jmar,80,ig-86-sentinel-droid,8.41,3,44,3
-Jmar,80,talia,6.56,3,44,2
-Jmar,80,jawa-scavenger,5.79,4,1,1
-Jmar,80,qui-gon-jinn,5.09,4,1,1
-Jmar,80,darth-sidious,5.09,4,1,1
-Jmar,80,teebo,5.72,4,1,1
-Jmar,80,admiral-ackbar,5.79,4,1,1
-Jmar,80,plo-koon,4.5,3,10,2
-Jmar,80,greedo,4.29,2,44,2
-Jmar,80,magmatrooper,4.08,1,48,2
-Jmar,80,logray,3.39,3,1,1
-Jmar,80,princess-leia,3.39,3,1,1
-Jmar,80,savage-opress,3.39,3,1,1
-Jmar,80,wicket,3.39,3,1,1
-Jmar,80,zam-wesell,3.86,3,1,1
-Jmar,80,luminara-unduli,3.39,3,1,1
-Jmar,80,ewok-elder,3.99,3,1,1
-Jmar,80,ig-100-magnaguard,3.99,3,1,1
-Jmar,80,hoth-rebel-scout,3.99,3,1,1
-Jmar,80,paploo,3.39,3,1,1
-Jmar,80,first-order-stormtrooper,2.36,2,1,1
-Jmar,80,dengar,2.57,2,1,1
-Jmar,80,nightsister-initiate,1.78,1,1,1
+Jmar,81,grand-moff-tarkin,60.54,7,81,10
+Jmar,81,tie-fighter-pilot,75.25,7,81,10
+Jmar,81,boba-fett,60.13,7,80,8
+Jmar,81,royal-guard,65.94,7,81,8
+Jmar,81,darth-vader,55.27,6,81,9
+Jmar,81,ahsoka-tano,62.76,7,75,8
+Jmar,81,lando-calrissian,62.63,7,79,7
+Jmar,81,stormtrooper-han,54.28,7,79,7
+Jmar,81,emperor-palpatine,49.89,5,81,8
+Jmar,81,stormtrooper,45.43,7,71,7
+Jmar,81,captain-phasma,40.11,7,65,7
+Jmar,81,wedge-antilles,43.83,5,79,8
+Jmar,81,mace-windu,43.34,7,66,6
+Jmar,81,biggs-darklighter,42.77,5,80,8
+Jmar,81,luke-skywalker-farmboy,19.46,5,65,6
+Jmar,81,jedi-consular,22.16,3,61,7
+Jmar,81,r2-d2,16.35,5,50,6
+Jmar,81,first-order-tie-pilot,18.76,3,65,7
+Jmar,81,sun-fac,20.17,4,53,7
+Jmar,81,geonosian-soldier,18.89,2,60,7
+Jmar,81,clone-wars-chewbacca,15.53,4,62,5
+Jmar,81,ct-7567-rex,17.29,5,53,4
+Jmar,81,clone-sergeant-phase-i,15.9,3,62,5
+Jmar,81,geonosian-spy,14.8,4,53,5
+Jmar,81,resistance-pilot,14.55,2,52,6
+Jmar,81,snowtrooper,13.22,4,49,4
+Jmar,81,ewok-scout,10.25,4,44,2
+Jmar,81,kanan-jarrus,9.74,2,53,3
+Jmar,81,darth-maul,8.54,5,11,2
+Jmar,81,veteran-smuggler-han-solo,7.93,3,53,2
+Jmar,81,veteran-smuggler-chewbacca,8.92,3,53,2
+Jmar,81,sabine-wren,8.65,2,53,2
+Jmar,81,chief-chirpa,7.42,4,44,2
+Jmar,81,ig-86-sentinel-droid,8.41,3,44,3
+Jmar,81,talia,6.56,3,44,2
+Jmar,81,jawa-scavenger,5.79,4,1,1
+Jmar,81,qui-gon-jinn,5.09,4,1,1
+Jmar,81,darth-sidious,5.09,4,1,1
+Jmar,81,teebo,5.72,4,1,1
+Jmar,81,admiral-ackbar,5.79,4,1,1
+Jmar,81,plo-koon,4.5,3,10,2
+Jmar,81,greedo,4.29,2,44,2
+Jmar,81,magmatrooper,4.08,1,48,2
+Jmar,81,logray,3.39,3,1,1
+Jmar,81,princess-leia,3.39,3,1,1
+Jmar,81,savage-opress,3.39,3,1,1
+Jmar,81,wicket,3.39,3,1,1
+Jmar,81,zam-wesell,3.86,3,1,1
+Jmar,81,luminara-unduli,3.39,3,1,1
+Jmar,81,ewok-elder,3.99,3,1,1
+Jmar,81,ig-100-magnaguard,3.99,3,1,1
+Jmar,81,hoth-rebel-scout,3.99,3,1,1
+Jmar,81,paploo,3.39,3,1,1
+Jmar,81,first-order-stormtrooper,2.36,2,1,1
+Jmar,81,dengar,2.57,2,1,1
+Jmar,81,nightsister-initiate,1.78,1,1,1
 Peanut butter,85,jyn-erso,81.88,7,85,11
 Peanut butter,85,darth-vader,82.78,7,85,11
 Peanut butter,85,luminara-unduli,81.45,7,85,11
@@ -2127,11 +2125,11 @@ Peanut butter,85,talia,35.34,6,56,7
 Peanut butter,85,ig-100-magnaguard,36.31,5,67,8
 Peanut butter,85,count-dooku,30.56,5,61,7
 Peanut butter,85,luke-skywalker-farmboy,27.5,5,74,6
-Peanut butter,85,geonosian-soldier,35.61,4,61,8
 Peanut butter,85,gamorrean-guard,35.05,5,63,7
 Peanut butter,85,kit-fisto,31.49,5,57,7
 Peanut butter,85,clone-sergeant-phase-i,32.17,6,53,6
 Peanut butter,85,hera-syndulla,29.67,4,58,7
+Peanut butter,85,stormtrooper,27.07,5,57,7
 Peanut butter,85,tusken-raider,29.96,5,51,7
 Peanut butter,85,cad-bane,28.2,4,61,7
 Peanut butter,85,jedi-knight-anakin,28.19,4,63,7
@@ -2144,7 +2142,6 @@ Peanut butter,85,first-order-tie-pilot,20.73,5,55,6
 Peanut butter,85,nightsister-acolyte,22.93,3,56,7
 Peanut butter,85,admiral-ackbar,21.04,4,51,6
 Peanut butter,85,magmatrooper,19.84,4,50,6
-Peanut butter,85,coruscant-underworld-police,18.85,4,50,6
 Peanut butter,85,nightsister-initiate,18.76,2,50,7
 Peanut butter,85,chief-chirpa,15.15,4,43,6
 Peanut butter,85,ezra-bridger,15.93,4,42,5
@@ -2161,7 +2158,7 @@ Peanut butter,85,wicket,3.39,3,1,1
 Peanut butter,85,bodhi-rook,2.32,2,1,1
 kaiphoon shu,85,finn,83.79,7,85,9
 kaiphoon shu,85,kylo-ren,83.07,7,85,9
-kaiphoon shu,85,poe-dameron,87.25,7,85,10
+kaiphoon shu,85,poe-dameron,87.6,7,85,10
 kaiphoon shu,85,darth-vader,72.29,6,85,9
 kaiphoon shu,85,resistance-trooper,83.96,7,85,10
 kaiphoon shu,85,jyn-erso,58.16,7,85,8
@@ -2170,6 +2167,7 @@ kaiphoon shu,85,rey,65.4,7,85,8
 kaiphoon shu,85,wedge-antilles,70.62,7,85,8
 kaiphoon shu,85,stormtrooper-han,60.82,7,82,8
 kaiphoon shu,85,biggs-darklighter,70.63,7,85,8
+kaiphoon shu,85,ig-88,61.93,7,80,7
 kaiphoon shu,85,cassian-andor,,7,78,7
 kaiphoon shu,85,k-2so,53.76,7,76,7
 kaiphoon shu,85,baze-malbus,58.87,4,85,9
@@ -2183,7 +2181,6 @@ kaiphoon shu,85,r2-d2,43.11,5,85,7
 kaiphoon shu,85,darth-nihilus,40.09,4,85,8
 kaiphoon shu,85,ct-7567-rex,51.19,6,80,7
 kaiphoon shu,85,shoretrooper,52.3,5,80,8
-kaiphoon shu,85,ig-88,50.54,6,80,7
 kaiphoon shu,85,lando-calrissian,50.64,5,80,8
 kaiphoon shu,85,admiral-ackbar,48.72,7,65,7
 kaiphoon shu,85,ct-5555-fives,41.15,6,80,8
@@ -2200,7 +2197,6 @@ kaiphoon shu,85,ahsoka-tano,37.11,6,65,7
 kaiphoon shu,85,darth-sidious,31.85,6,58,7
 kaiphoon shu,85,royal-guard,35.7,5,70,8
 kaiphoon shu,85,ahsoka-tano-fulcrum,29.07,4,70,6
-kaiphoon shu,85,mace-windu,33.04,6,70,7
 kaiphoon shu,85,geonosian-soldier,33.33,6,62,7
 kaiphoon shu,85,death-trooper,28.11,5,62,7
 kaiphoon shu,85,ct-21-0408-echo,31.9,4,73,7
@@ -2223,7 +2219,6 @@ kaiphoon shu,85,ezra-bridger,18.35,5,50,5
 kaiphoon shu,85,grand-moff-tarkin,13.51,5,50,4
 kaiphoon shu,85,hera-syndulla,16.9,4,45,5
 kaiphoon shu,85,jawa-scavenger,16.77,5,44,4
-kaiphoon shu,85,first-order-tie-pilot,14.92,2,56,6
 kaiphoon shu,85,kanan-jarrus,15.48,4,41,5
 kaiphoon shu,85,bodhi-rook,13.11,5,40,4
 kaiphoon shu,85,stormtrooper,13.59,4,45,5
@@ -2248,6 +2243,7 @@ kaiphoon shu,85,savage-opress,5.64,3,40,2
 kaiphoon shu,85,hoth-rebel-soldier,6.4,4,6,2
 kaiphoon shu,85,dengar,5.93,2,28,3
 kaiphoon shu,85,plo-koon,5.22,3,20,2
+kaiphoon shu,85,nightsister-initiate,4.8,1,33,3
 kaiphoon shu,85,jedi-knight-guardian,4.22,3,6,1
 kaiphoon shu,85,pao,3.46,2,20,2
 kaiphoon shu,85,tusken-raider,4.05,3,1,1
@@ -2260,8 +2256,8 @@ kaiphoon shu,85,gar-saxon,2.26,2,1,1
 DrAdamBomb,85,darth-vader,88.44,7,85,10
 DrAdamBomb,85,wedge-antilles,89.25,7,85,11
 DrAdamBomb,85,emperor-palpatine,84.7,7,85,10
+DrAdamBomb,85,chirrut-imwe,81.52,7,85,9
 DrAdamBomb,85,biggs-darklighter,86.79,7,85,10
-DrAdamBomb,85,chirrut-imwe,79.94,7,85,9
 DrAdamBomb,85,princess-leia,72.36,7,85,10
 DrAdamBomb,85,count-dooku,70.59,7,85,10
 DrAdamBomb,85,boba-fett,66.32,7,84,8
@@ -2270,6 +2266,7 @@ DrAdamBomb,85,captain-phasma,66.91,7,85,8
 DrAdamBomb,85,stormtrooper-han,67.43,7,84,9
 DrAdamBomb,85,k-2so,66.3,7,85,8
 DrAdamBomb,85,admiral-ackbar,74.14,7,85,9
+DrAdamBomb,85,tie-fighter-pilot,74.05,7,85,8
 DrAdamBomb,85,mace-windu,70.08,7,80,8
 DrAdamBomb,85,royal-guard,72.42,7,85,8
 DrAdamBomb,85,darth-maul,61.18,7,85,8
@@ -2292,14 +2289,13 @@ DrAdamBomb,85,first-order-tie-pilot,49.93,5,85,8
 DrAdamBomb,85,rey,47.93,6,78,8
 DrAdamBomb,85,grand-master-yoda,39.3,7,72,7
 DrAdamBomb,85,chief-nebit,50.57,6,78,8
-DrAdamBomb,85,r2-d2,37.2,6,81,7
+DrAdamBomb,85,r2-d2,37.69,6,81,7
 DrAdamBomb,85,finn,42.43,5,80,8
 DrAdamBomb,85,darth-nihilus,36.31,4,80,8
 DrAdamBomb,85,clone-wars-chewbacca,41.21,6,74,8
 DrAdamBomb,85,ct-5555-fives,39.73,6,68,8
-DrAdamBomb,85,han-solo,36.77,5,82,7
+DrAdamBomb,85,han-solo,39.05,5,85,7
 DrAdamBomb,85,resistance-trooper,43.4,5,80,7
-DrAdamBomb,85,jawa-scavenger,40.74,6,76,7
 DrAdamBomb,85,clone-sergeant-phase-i,40.71,5,76,8
 DrAdamBomb,85,snowtrooper,38.43,6,62,7
 DrAdamBomb,85,cc-2224-cody,30.62,5,70,8
@@ -2319,14 +2315,15 @@ DrAdamBomb,85,ewok-elder,23.71,5,53,6
 DrAdamBomb,85,ima-gun-di,20.92,4,51,7
 DrAdamBomb,85,bodhi-rook,18.32,5,50,5
 DrAdamBomb,85,hoth-rebel-scout,19.07,4,46,6
-DrAdamBomb,85,sith-assassin,18.9,3,51,7
 DrAdamBomb,85,bb-8,15.67,5,41,4
 DrAdamBomb,85,jedi-knight-guardian,15.9,4,47,5
 DrAdamBomb,85,ewok-scout,15.7,4,39,5
 DrAdamBomb,85,lobot,14.83,4,36,5
 DrAdamBomb,85,chopper,14.6,4,35,5
 DrAdamBomb,85,qui-gon-jinn,12.9,4,40,5
+DrAdamBomb,85,veteran-smuggler-han-solo,12.77,3,44,6
 DrAdamBomb,85,hera-syndulla,12.75,3,50,4
+DrAdamBomb,85,veteran-smuggler-chewbacca,11.22,3,34,4
 DrAdamBomb,85,ig-100-magnaguard,11.54,3,35,5
 DrAdamBomb,85,b2-super-battle-droid,11.19,4,26,4
 DrAdamBomb,85,sabine-wren,9.46,3,26,4
@@ -2334,13 +2331,12 @@ DrAdamBomb,85,geonosian-soldier,9.71,1,36,5
 DrAdamBomb,85,nightsister-acolyte,8.87,2,35,5
 DrAdamBomb,85,ahsoka-tano-fulcrum,7.48,3,26,4
 DrAdamBomb,85,coruscant-underworld-police,8.57,2,42,4
-DrAdamBomb,85,garazeb-zeb-orrelios,7.6,3,30,3
 DrAdamBomb,85,barriss-offee,6.68,4,28,2
+DrAdamBomb,85,garazeb-zeb-orrelios,7.6,3,30,3
 DrAdamBomb,85,ezra-bridger,7.12,3,22,3
-DrAdamBomb,85,veteran-smuggler-han-solo,5.51,3,16,3
+DrAdamBomb,85,imperial-super-commando,6.67,3,24,3
 DrAdamBomb,85,nute-gunray,5.79,4,1,1
 DrAdamBomb,85,logray,5.09,3,16,3
-DrAdamBomb,85,veteran-smuggler-chewbacca,5.53,3,16,2
 DrAdamBomb,85,paploo,3.69,2,12,3
 DrAdamBomb,85,kanan-jarrus,4.01,3,4,1
 DrAdamBomb,85,tusken-raider,3.99,3,1,1
@@ -2374,8 +2370,8 @@ PhunbKul,85,barriss-offee,51.95,6,78,8
 PhunbKul,85,magmatrooper,60.1,7,80,7
 PhunbKul,85,poe-dameron,56.46,6,85,8
 PhunbKul,85,kylo-ren,49.07,5,85,8
+PhunbKul,85,finn,49.06,5,85,8
 PhunbKul,85,sith-trooper,57.3,4,85,9
-PhunbKul,85,finn,48.45,5,85,8
 PhunbKul,85,stormtrooper-han,48.78,6,85,7
 PhunbKul,85,qui-gon-jinn,46.72,6,78,8
 PhunbKul,85,jedi-consular,52.32,6,70,8
@@ -2435,108 +2431,110 @@ PhunbKul,85,paploo,2.26,2,1,1
 PhunbKul,85,ahsoka-tano,2.57,2,1,1
 PhunbKul,85,pao,2.26,2,1,1
 PhunbKul,85,coruscant-underworld-police,1.79,1,2,1
-Delmon Ciiidr,85,grand-moff-tarkin,72.89,7,85,11
-Delmon Ciiidr,85,ct-7567-rex,86.45,7,80,11
-Delmon Ciiidr,85,darth-vader,74.5,7,83,10
-Delmon Ciiidr,85,wedge-antilles,84.35,7,84,10
-Delmon Ciiidr,85,boba-fett,70.42,7,84,9
-Delmon Ciiidr,85,ct-5555-fives,70.98,7,83,10
-Delmon Ciiidr,85,emperor-palpatine,75.43,7,80,9
-Delmon Ciiidr,85,princess-leia,68.15,7,82,9
-Delmon Ciiidr,85,biggs-darklighter,78.27,7,80,10
-Delmon Ciiidr,85,luke-skywalker-farmboy,58.4,7,79,9
-Delmon Ciiidr,85,darth-maul,64.81,7,80,9
-Delmon Ciiidr,85,jedi-consular,75.21,7,78,9
-Delmon Ciiidr,85,geonosian-soldier,75.2,7,80,10
-Delmon Ciiidr,85,royal-guard,73.76,7,80,9
-Delmon Ciiidr,85,admiral-ackbar,69.11,7,76,8
-Delmon Ciiidr,85,snowtrooper,71.32,7,80,8
-Delmon Ciiidr,85,ig-86-sentinel-droid,71.11,7,78,9
-Delmon Ciiidr,85,darth-nihilus,50.73,6,82,9
-Delmon Ciiidr,85,magmatrooper,68.49,7,80,8
-Delmon Ciiidr,85,savage-opress,57.43,7,72,8
-Delmon Ciiidr,85,cc-2224-cody,56.31,7,76,8
-Delmon Ciiidr,85,shoretrooper,65.82,6,80,9
-Delmon Ciiidr,85,lando-calrissian,64.21,6,80,9
-Delmon Ciiidr,85,luminara-unduli,50.92,7,71,7
-Delmon Ciiidr,85,teebo,56.76,7,70,8
-Delmon Ciiidr,85,dathcha,56.41,7,67,7
-Delmon Ciiidr,85,captain-phasma,48.88,7,67,8
-Delmon Ciiidr,85,death-trooper,47.42,5,78,9
-Delmon Ciiidr,85,jawa-scavenger,52.21,7,61,7
-Delmon Ciiidr,85,stormtrooper-han,44.12,6,70,8
-Delmon Ciiidr,85,director-krennic,41.71,4,75,8
-Delmon Ciiidr,85,count-dooku,42.06,6,70,8
-Delmon Ciiidr,85,first-order-tie-pilot,43.62,6,73,8
-Delmon Ciiidr,85,ig-88,47.17,6,70,8
-Delmon Ciiidr,85,clone-wars-chewbacca,41.31,6,70,8
-Delmon Ciiidr,85,ct-21-0408-echo,46.81,6,74,8
-Delmon Ciiidr,85,chirrut-imwe,45.07,6,70,8
-Delmon Ciiidr,85,bodhi-rook,40.33,6,70,8
-Delmon Ciiidr,85,hoth-rebel-scout,46.51,6,70,8
-Delmon Ciiidr,85,chief-nebit,44.67,6,70,8
-Delmon Ciiidr,85,jawa-engineer,43.62,6,63,8
-Delmon Ciiidr,85,darth-sidious,38.18,5,73,9
-Delmon Ciiidr,85,plo-koon,43.41,5,70,9
-Delmon Ciiidr,85,sun-fac,43.38,6,70,8
-Delmon Ciiidr,85,ewok-elder,43.78,6,63,8
-Delmon Ciiidr,85,garazeb-zeb-orrelios,41.84,6,66,7
-Delmon Ciiidr,85,hk-47,40.95,5,69,8
-Delmon Ciiidr,85,ewok-scout,42.01,6,61,8
-Delmon Ciiidr,85,poggle-the-lesser,40.49,6,65,8
-Delmon Ciiidr,85,scarif-rebel-pathfinder,40.62,5,70,8
-Delmon Ciiidr,85,tie-fighter-pilot,40.44,5,73,8
-Delmon Ciiidr,85,sith-trooper,40.2,4,75,8
-Delmon Ciiidr,85,baze-malbus,37.46,4,70,8
-Delmon Ciiidr,85,mace-windu,38.02,6,63,7
-Delmon Ciiidr,85,jawa,38.45,5,64,8
-Delmon Ciiidr,85,greedo,36.72,5,70,8
-Delmon Ciiidr,85,r2-d2,28.08,6,61,7
-Delmon Ciiidr,85,bistan,35.96,6,64,7
-Delmon Ciiidr,85,clone-sergeant-phase-i,37.14,5,64,8
-Delmon Ciiidr,85,first-order-officer,35.51,5,65,8
-Delmon Ciiidr,85,first-order-stormtrooper,30.86,4,66,8
-Delmon Ciiidr,85,hoth-rebel-soldier,34.25,4,70,7
-Delmon Ciiidr,85,hera-syndulla,32.43,4,63,8
-Delmon Ciiidr,85,kanan-jarrus,31.64,5,63,7
-Delmon Ciiidr,85,general-veers,27.25,6,50,6
-Delmon Ciiidr,85,jedi-knight-anakin,30.22,5,61,7
-Delmon Ciiidr,85,ezra-bridger,30.15,4,66,8
-Delmon Ciiidr,85,ig-100-magnaguard,30.29,5,63,7
-Delmon Ciiidr,85,poe-dameron,28.8,4,60,7
-Delmon Ciiidr,85,k-2so,24.99,5,60,7
-Delmon Ciiidr,85,sith-assassin,29.12,4,64,8
-Delmon Ciiidr,85,kylo-ren,24.13,4,60,7
-Delmon Ciiidr,85,stormtrooper,25.07,4,61,7
-Delmon Ciiidr,85,grand-master-yoda,20.41,5,51,7
-Delmon Ciiidr,85,ahsoka-tano,26.42,4,59,7
-Delmon Ciiidr,85,chopper,24.95,4,60,7
-Delmon Ciiidr,85,sabine-wren,24.64,4,60,7
-Delmon Ciiidr,85,nightsister-initiate,25.33,4,58,7
-Delmon Ciiidr,85,resistance-trooper,24.75,4,55,7
-Delmon Ciiidr,85,jedi-knight-guardian,24.11,5,56,6
-Delmon Ciiidr,85,chief-chirpa,20.11,4,52,7
-Delmon Ciiidr,85,resistance-pilot,23.58,5,52,6
-Delmon Ciiidr,85,gar-saxon,18.26,3,52,7
-Delmon Ciiidr,85,obi-wan-kenobi-old-ben,15.71,4,50,6
-Delmon Ciiidr,85,finn,17.66,4,50,6
-Delmon Ciiidr,85,qui-gon-jinn,17.59,4,51,6
-Delmon Ciiidr,85,lobot,17.93,4,53,4
-Delmon Ciiidr,85,mob-enforcer,18.21,3,51,6
-Delmon Ciiidr,85,zam-wesell,17.54,3,51,6
-Delmon Ciiidr,85,ahsoka-tano-fulcrum,15.19,3,53,6
-Delmon Ciiidr,85,geonosian-spy,17.17,4,55,5
-Delmon Ciiidr,85,imperial-super-commando,15.97,2,53,6
-Delmon Ciiidr,85,logray,13.55,3,43,6
-Delmon Ciiidr,85,pao,13.36,2,50,6
-Delmon Ciiidr,85,ugnaught,14.72,3,50,5
-Delmon Ciiidr,85,veteran-smuggler-chewbacca,13.57,3,50,5
-Delmon Ciiidr,85,kit-fisto,,2,50,5
-Delmon Ciiidr,85,paploo,10.66,3,42,5
-Delmon Ciiidr,85,veteran-smuggler-han-solo,,3,50,4
-Delmon Ciiidr,85,coruscant-underworld-police,9.72,1,46,4
-Delmon Ciiidr,85,nightsister-acolyte,9.32,2,42,4
-Delmon Ciiidr,85,tusken-raider,8.71,3,40,3
+Delmon Ciiid&#39;r,85,grand-moff-tarkin,72.89,7,85,11
+Delmon Ciiid&#39;r,85,ct-7567-rex,86.45,7,80,11
+Delmon Ciiid&#39;r,85,darth-vader,74.5,7,83,10
+Delmon Ciiid&#39;r,85,wedge-antilles,84.35,7,84,10
+Delmon Ciiid&#39;r,85,boba-fett,70.42,7,84,9
+Delmon Ciiid&#39;r,85,ct-5555-fives,70.98,7,83,10
+Delmon Ciiid&#39;r,85,emperor-palpatine,75.43,7,80,9
+Delmon Ciiid&#39;r,85,princess-leia,68.15,7,82,9
+Delmon Ciiid&#39;r,85,biggs-darklighter,78.27,7,80,10
+Delmon Ciiid&#39;r,85,luke-skywalker-farmboy,58.4,7,79,9
+Delmon Ciiid&#39;r,85,darth-maul,64.81,7,80,9
+Delmon Ciiid&#39;r,85,jedi-consular,75.21,7,78,9
+Delmon Ciiid&#39;r,85,geonosian-soldier,75.2,7,80,10
+Delmon Ciiid&#39;r,85,royal-guard,73.76,7,80,9
+Delmon Ciiid&#39;r,85,admiral-ackbar,69.11,7,76,8
+Delmon Ciiid&#39;r,85,snowtrooper,71.32,7,80,8
+Delmon Ciiid&#39;r,85,ig-86-sentinel-droid,71.11,7,78,9
+Delmon Ciiid&#39;r,85,darth-nihilus,50.73,6,82,9
+Delmon Ciiid&#39;r,85,magmatrooper,68.49,7,80,8
+Delmon Ciiid&#39;r,85,savage-opress,57.43,7,72,8
+Delmon Ciiid&#39;r,85,cc-2224-cody,56.31,7,76,8
+Delmon Ciiid&#39;r,85,shoretrooper,65.82,6,80,9
+Delmon Ciiid&#39;r,85,lando-calrissian,64.21,6,80,9
+Delmon Ciiid&#39;r,85,luminara-unduli,50.92,7,71,7
+Delmon Ciiid&#39;r,85,teebo,56.76,7,70,8
+Delmon Ciiid&#39;r,85,dathcha,56.41,7,67,7
+Delmon Ciiid&#39;r,85,captain-phasma,48.88,7,67,8
+Delmon Ciiid&#39;r,85,death-trooper,47.42,5,78,9
+Delmon Ciiid&#39;r,85,jawa-scavenger,52.21,7,61,7
+Delmon Ciiid&#39;r,85,stormtrooper-han,44.12,6,70,8
+Delmon Ciiid&#39;r,85,director-krennic,41.71,4,75,8
+Delmon Ciiid&#39;r,85,count-dooku,42.06,6,70,8
+Delmon Ciiid&#39;r,85,first-order-tie-pilot,43.62,6,73,8
+Delmon Ciiid&#39;r,85,ig-88,47.17,6,70,8
+Delmon Ciiid&#39;r,85,clone-wars-chewbacca,41.31,6,70,8
+Delmon Ciiid&#39;r,85,ct-21-0408-echo,46.81,6,74,8
+Delmon Ciiid&#39;r,85,chirrut-imwe,45.07,6,70,8
+Delmon Ciiid&#39;r,85,bodhi-rook,40.33,6,70,8
+Delmon Ciiid&#39;r,85,hoth-rebel-scout,46.51,6,70,8
+Delmon Ciiid&#39;r,85,chief-nebit,44.67,6,70,8
+Delmon Ciiid&#39;r,85,jawa-engineer,43.62,6,63,8
+Delmon Ciiid&#39;r,85,darth-sidious,38.18,5,73,9
+Delmon Ciiid&#39;r,85,plo-koon,43.41,5,70,9
+Delmon Ciiid&#39;r,85,sun-fac,43.38,6,70,8
+Delmon Ciiid&#39;r,85,ewok-elder,43.78,6,63,8
+Delmon Ciiid&#39;r,85,garazeb-zeb-orrelios,41.84,6,66,7
+Delmon Ciiid&#39;r,85,hk-47,40.95,5,69,8
+Delmon Ciiid&#39;r,85,ewok-scout,42.01,6,61,8
+Delmon Ciiid&#39;r,85,poggle-the-lesser,40.49,6,65,8
+Delmon Ciiid&#39;r,85,scarif-rebel-pathfinder,40.62,5,70,8
+Delmon Ciiid&#39;r,85,tie-fighter-pilot,40.44,5,73,8
+Delmon Ciiid&#39;r,85,sith-trooper,40.2,4,75,8
+Delmon Ciiid&#39;r,85,baze-malbus,37.46,4,70,8
+Delmon Ciiid&#39;r,85,mace-windu,38.02,6,63,7
+Delmon Ciiid&#39;r,85,jawa,38.45,5,64,8
+Delmon Ciiid&#39;r,85,greedo,36.72,5,70,8
+Delmon Ciiid&#39;r,85,r2-d2,28.08,6,61,7
+Delmon Ciiid&#39;r,85,bistan,35.96,6,64,7
+Delmon Ciiid&#39;r,85,clone-sergeant-phase-i,37.14,5,64,8
+Delmon Ciiid&#39;r,85,first-order-officer,35.51,5,65,8
+Delmon Ciiid&#39;r,85,first-order-stormtrooper,30.86,4,66,8
+Delmon Ciiid&#39;r,85,hoth-rebel-soldier,34.25,4,70,7
+Delmon Ciiid&#39;r,85,hera-syndulla,32.43,4,63,8
+Delmon Ciiid&#39;r,85,kanan-jarrus,31.64,5,63,7
+Delmon Ciiid&#39;r,85,general-veers,27.25,6,50,6
+Delmon Ciiid&#39;r,85,jedi-knight-anakin,30.22,5,61,7
+Delmon Ciiid&#39;r,85,ezra-bridger,30.15,4,66,8
+Delmon Ciiid&#39;r,85,talia,29.33,5,62,7
+Delmon Ciiid&#39;r,85,ig-100-magnaguard,30.29,5,63,7
+Delmon Ciiid&#39;r,85,poe-dameron,28.8,4,60,7
+Delmon Ciiid&#39;r,85,k-2so,24.99,5,60,7
+Delmon Ciiid&#39;r,85,sith-assassin,29.12,4,64,8
+Delmon Ciiid&#39;r,85,kylo-ren,24.13,4,60,7
+Delmon Ciiid&#39;r,85,stormtrooper,25.07,4,61,7
+Delmon Ciiid&#39;r,85,grand-master-yoda,20.41,5,51,7
+Delmon Ciiid&#39;r,85,ahsoka-tano,26.42,4,59,7
+Delmon Ciiid&#39;r,85,chopper,24.95,4,60,7
+Delmon Ciiid&#39;r,85,sabine-wren,24.64,4,60,7
+Delmon Ciiid&#39;r,85,nightsister-initiate,25.33,4,58,7
+Delmon Ciiid&#39;r,85,resistance-trooper,24.75,4,55,7
+Delmon Ciiid&#39;r,85,jedi-knight-guardian,24.11,5,56,6
+Delmon Ciiid&#39;r,85,chief-chirpa,20.11,4,52,7
+Delmon Ciiid&#39;r,85,resistance-pilot,23.58,5,52,6
+Delmon Ciiid&#39;r,85,gar-saxon,18.26,3,52,7
+Delmon Ciiid&#39;r,85,obi-wan-kenobi-old-ben,15.71,4,50,6
+Delmon Ciiid&#39;r,85,finn,17.66,4,50,6
+Delmon Ciiid&#39;r,85,qui-gon-jinn,17.59,4,51,6
+Delmon Ciiid&#39;r,85,lobot,17.93,4,53,4
+Delmon Ciiid&#39;r,85,mob-enforcer,18.21,3,51,6
+Delmon Ciiid&#39;r,85,zam-wesell,17.54,3,51,6
+Delmon Ciiid&#39;r,85,wicket,15.33,3,50,6
+Delmon Ciiid&#39;r,85,ahsoka-tano-fulcrum,15.19,3,53,6
+Delmon Ciiid&#39;r,85,geonosian-spy,17.17,4,55,5
+Delmon Ciiid&#39;r,85,imperial-super-commando,15.97,2,53,6
+Delmon Ciiid&#39;r,85,logray,13.55,3,43,6
+Delmon Ciiid&#39;r,85,pao,13.36,2,50,6
+Delmon Ciiid&#39;r,85,ugnaught,14.72,3,50,5
+Delmon Ciiid&#39;r,85,veteran-smuggler-chewbacca,13.57,3,50,5
+Delmon Ciiid&#39;r,85,kit-fisto,,2,50,5
+Delmon Ciiid&#39;r,85,paploo,10.66,3,42,5
+Delmon Ciiid&#39;r,85,veteran-smuggler-han-solo,,3,50,4
+Delmon Ciiid&#39;r,85,coruscant-underworld-police,9.72,1,46,4
+Delmon Ciiid&#39;r,85,nightsister-acolyte,9.32,2,42,4
+Delmon Ciiid&#39;r,85,tusken-raider,8.71,3,40,3
 TempleJax,75,wedge-antilles,67.05,7,75,9
 TempleJax,75,boba-fett,55.69,7,75,8
 TempleJax,75,lando-calrissian,66.23,7,75,8
@@ -2628,7 +2626,6 @@ AzureMatterSnake 11am est,68,poe-dameron,3.86,3,1,1
 AzureMatterSnake 11am est,68,tusken-raider,3.99,3,1,1
 AzureMatterSnake 11am est,68,hoth-rebel-soldier,3.99,3,1,1
 AzureMatterSnake 11am est,68,paploo,3.39,3,1,1
-AzureMatterSnake 11am est,68,first-order-stormtrooper,2.43,2,3,1
 AzureMatterSnake 11am est,68,teebo,2.54,2,1,1
 AzureMatterSnake 11am est,68,ig-100-magnaguard,2.66,2,1,1
 AzureMatterSnake 11am est,68,chopper,2.54,2,1,1
@@ -2644,45 +2641,45 @@ AzureMatterSnake 11am est,68,snowtrooper,1.78,1,1,1
 AzureMatterSnake 11am est,68,ig-86-sentinel-droid,1.78,1,1,1
 AzureMatterSnake 11am est,68,magmatrooper,1.78,1,1,1
 AzureMatterSnake 11am est,68,nightsister-initiate,1.78,1,1,1
-Mordu,70,boba-fett,48.38,7,70,8
-Mordu,70,biggs-darklighter,54.54,7,70,7
-Mordu,70,lando-calrissian,48.29,6,70,8
-Mordu,70,stormtrooper-han,37.29,6,70,7
-Mordu,70,ct-5555-fives,30.44,5,65,8
-Mordu,70,grand-moff-tarkin,26.47,5,63,8
-Mordu,70,wedge-antilles,33.39,4,70,7
-Mordu,70,tie-fighter-pilot,30.25,5,65,7
-Mordu,70,jedi-consular,29.81,4,60,8
-Mordu,70,first-order-tie-pilot,24.56,4,65,7
-Mordu,70,admiral-ackbar,26.49,4,65,7
-Mordu,70,darth-vader,22.65,4,64,7
-Mordu,70,talia,20.78,4,60,6
-Mordu,70,sun-fac,19.42,3,60,6
-Mordu,70,clone-wars-chewbacca,16.56,4,50,6
-Mordu,70,royal-guard,19.08,3,60,6
-Mordu,70,count-dooku,15.99,3,60,6
-Mordu,70,geonosian-soldier,17.61,2,60,6
-Mordu,70,snowtrooper,16.75,4,60,5
-Mordu,70,luke-skywalker-farmboy,12.59,4,50,5
-Mordu,70,aayla-secura,14.24,3,52,5
-Mordu,70,ahsoka-tano,13.22,3,50,5
-Mordu,70,luminara-unduli,11.18,3,55,4
-Mordu,70,resistance-pilot,12.64,2,50,5
-Mordu,70,veteran-smuggler-chewbacca,11.28,3,53,4
-Mordu,70,poe-dameron,11.13,3,55,4
-Mordu,70,clone-sergeant-phase-i,10.98,2,50,4
-Mordu,70,ezra-bridger,10.36,2,50,5
-Mordu,70,jawa-scavenger,9.74,4,46,3
-Mordu,70,hera-syndulla,9.35,2,50,4
-Mordu,70,mace-windu,9.02,4,21,3
-Mordu,70,sabine-wren,8.87,2,50,4
-Mordu,70,garazeb-zeb-orrelios,8.8,2,50,3
-Mordu,70,ewok-scout,8.77,1,35,5
-Mordu,70,jedi-knight-guardian,8.6,2,50,4
-Mordu,70,greedo,7.61,2,50,4
-Mordu,70,kylo-ren,5.98,4,10,2
-Mordu,70,veteran-smuggler-han-solo,4.79,3,20,2
-Mordu,70,ig-86-sentinel-droid,4.87,1,21,3
+Mor&#39;du,70,boba-fett,48.38,7,70,8
+Mor&#39;du,70,biggs-darklighter,54.54,7,70,7
+Mor&#39;du,70,lando-calrissian,48.29,6,70,8
+Mor&#39;du,70,stormtrooper-han,37.29,6,70,7
+Mor&#39;du,70,ct-5555-fives,30.44,5,65,8
+Mor&#39;du,70,grand-moff-tarkin,26.47,5,63,8
+Mor&#39;du,70,wedge-antilles,33.39,4,70,7
+Mor&#39;du,70,tie-fighter-pilot,30.25,5,65,7
+Mor&#39;du,70,jedi-consular,29.81,4,60,8
+Mor&#39;du,70,first-order-tie-pilot,24.56,4,65,7
+Mor&#39;du,70,admiral-ackbar,26.49,4,65,7
+Mor&#39;du,70,darth-vader,22.65,4,64,7
+Mor&#39;du,70,talia,20.78,4,60,6
+Mor&#39;du,70,sun-fac,19.42,3,60,6
+Mor&#39;du,70,clone-wars-chewbacca,16.56,4,50,6
+Mor&#39;du,70,royal-guard,19.08,3,60,6
+Mor&#39;du,70,count-dooku,15.99,3,60,6
+Mor&#39;du,70,geonosian-soldier,17.61,2,60,6
+Mor&#39;du,70,snowtrooper,16.75,4,60,5
+Mor&#39;du,70,luke-skywalker-farmboy,12.59,4,50,5
+Mor&#39;du,70,aayla-secura,14.24,3,52,5
+Mor&#39;du,70,ahsoka-tano,13.22,3,50,5
+Mor&#39;du,70,luminara-unduli,11.18,3,55,4
+Mor&#39;du,70,resistance-pilot,12.64,2,50,5
+Mor&#39;du,70,veteran-smuggler-chewbacca,11.28,3,53,4
+Mor&#39;du,70,poe-dameron,11.13,3,55,4
+Mor&#39;du,70,clone-sergeant-phase-i,10.98,2,50,4
+Mor&#39;du,70,ezra-bridger,10.36,2,50,5
+Mor&#39;du,70,jawa-scavenger,9.74,4,46,3
+Mor&#39;du,70,hera-syndulla,9.35,2,50,4
+Mor&#39;du,70,mace-windu,9.02,4,21,3
+Mor&#39;du,70,sabine-wren,8.87,2,50,4
+Mor&#39;du,70,garazeb-zeb-orrelios,8.8,2,50,3
+Mor&#39;du,70,ewok-scout,8.77,1,35,5
+Mor&#39;du,70,jedi-knight-guardian,8.6,2,50,4
+Mor&#39;du,70,greedo,7.61,2,50,4
+Mor&#39;du,70,kylo-ren,5.98,4,10,2
+Mor&#39;du,70,veteran-smuggler-han-solo,4.79,3,20,2
+Mor&#39;du,70,ig-86-sentinel-droid,4.87,1,21,3
 Tazi,85,boba-fett,81.84,7,85,11
 Tazi,85,ig-88,89.63,7,85,11
 Tazi,85,k-2so,77.03,7,85,10
@@ -2785,12 +2782,12 @@ Tenalyen,85,princess-leia,78.8,7,85,11
 Tenalyen,85,chief-nebit,86.59,7,85,10
 Tenalyen,85,mace-windu,85.58,7,85,10
 Tenalyen,85,eeth-koth,85.58,7,85,10
-Tenalyen,85,asajj-ventress,64.53,7,85,9
+Tenalyen,85,asajj-ventress,64.58,7,85,9
 Tenalyen,85,grand-moff-tarkin,59.26,7,85,9
 Tenalyen,85,grand-master-yoda,58.64,7,85,9
+Tenalyen,85,emperor-palpatine,74.23,7,85,9
 Tenalyen,85,tusken-raider,78.81,7,85,9
 Tenalyen,85,wedge-antilles,75.78,7,85,9
-Tenalyen,85,emperor-palpatine,72.1,7,85,8
 Tenalyen,85,luke-skywalker-farmboy,58.46,7,85,9
 Tenalyen,85,greedo,73.38,7,85,9
 Tenalyen,85,dathcha,72.57,7,85,9
@@ -2901,6 +2898,7 @@ Sev,74,ct-21-0408-echo,37.9,6,54,7
 Sev,74,clone-sergeant-phase-i,37.73,5,61,8
 Sev,74,ahsoka-tano,32.79,4,65,8
 Sev,74,boba-fett,27.63,5,62,8
+Sev,74,jedi-consular,31.51,5,58,8
 Sev,74,tie-fighter-pilot,27.53,4,62,7
 Sev,74,darth-vader,22.78,4,54,7
 Sev,74,chirrut-imwe,23.04,4,61,7
@@ -2935,6 +2933,7 @@ Sev,74,hera-syndulla,3.16,2,30,1
 Sev,74,ewok-elder,2.66,2,1,1
 Sev,74,sabine-wren,2.57,2,1,1
 Sev,74,first-order-tie-pilot,1.57,1,1,1
+Sev,74,magmatrooper,1.78,1,1,1
 Gerry Ferry,85,emperor-palpatine,81.76,7,85,10
 Gerry Ferry,85,lando-calrissian,82.87,7,85,10
 Gerry Ferry,85,wedge-antilles,81.62,7,85,9
@@ -3098,7 +3097,6 @@ inyouendoh,78,garazeb-zeb-orrelios,58.89,7,65,8
 inyouendoh,78,ahsoka-tano,52.9,7,64,8
 inyouendoh,78,kanan-jarrus,52.79,7,65,8
 inyouendoh,78,admiral-ackbar,50.73,7,67,7
-inyouendoh,78,baze-malbus,45.95,4,77,8
 inyouendoh,78,chirrut-imwe,45.2,5,77,8
 inyouendoh,78,emperor-palpatine,43.77,7,60,7
 inyouendoh,78,sabine-wren,41.21,6,65,7

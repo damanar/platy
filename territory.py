@@ -17,3 +17,7 @@ class Platoon:
         for char in self.characters:
             stringy += "\t" + char
         print( stringy )
+
+class Territory:
+    def __init__(self):
+        self.platoons = []
