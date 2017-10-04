@@ -65,11 +65,12 @@ for platoon in platoon_list:
 
         clist = g.characters[ char ]
         #Trying to sort for the least power character in the guild that meets the requirements; will sort on power when we add them to the guild_list.csv
-        #c_sorted = sorted( clist, key=lambda k: k['power'] )
-        c_sorted = sorted( clist, key=lambda k: (k.star,k.gear,k.level) )
+        c_sorted = sorted( clist, key=lambda k: k.power )
+        #c_sorted = sorted( clist, key=lambda k: (k.star,k.gear,k.level) )
         for c in c_sorted:
             #print( c.name, "\t", c.player.name, "\t", c.star )
             if c.available:
+                print( "Assigning: ", c.name, ", ", c.player.name, ", ", c.power, sep="" )
                 s_char = c
                 c.available = False
                 break
