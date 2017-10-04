@@ -70,7 +70,7 @@ for platoon in platoon_list:
         for c in c_sorted:
             #print( c.name, "\t", c.player.name, "\t", c.star )
             if c.available:
-                print( "Assigning: ", c.name, ", ", c.player.name, ", ", c.power, sep="" )
+                #print( "Assigning: ", c.name, ", ", c.player.name, ", ", c.power, sep="" )
                 s_char = c
                 c.available = False
                 break
