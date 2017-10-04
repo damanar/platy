@@ -37,7 +37,8 @@ with open(platoon_file, 'rU') as csvfile:
 
 with open(roster_file, 'rU') as csvfile:
 #Parsing guild_list.csv to build our Character and Player objs and add them to our Guild obj
-    rows = csv.DictReader( csvfile, fieldnames=['player', 'plevel', 'char', 'power', 'star', 'level', 'gear'] )#pulling in as a dict for readability
+    #rows = csv.DictReader( csvfile, fieldnames=['player', 'plevel', 'char', 'power', 'star', 'level', 'gear'] )#pulling in as a dict for readability
+    rows = csv.DictReader( csvfile )#pulling in as a dict for readability
     for row in rows:
         p = {}#Holder for Player obj
         c = {}#Holder for Character obj
@@ -70,7 +71,7 @@ for platoon in platoon_list:
         for c in c_sorted:
             #print( c.name, "\t", c.player.name, "\t", c.star )
             if c.available:
-                print( "Assigning: ", c.name, ", ", c.player.name, ", ", c.power, sep="" )
+                #print( "Assigning: ", c.name, ", ", c.player.name, ", ", c.power, sep="" )
                 s_char = c
                 c.available = False
                 break
