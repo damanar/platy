@@ -37,8 +37,7 @@ with open(platoon_file, 'rU') as csvfile:
 
 with open(roster_file, 'rU') as csvfile:
 #Parsing guild_list.csv to build our Character and Player objs and add them to our Guild obj
-    #rows = csv.DictReader( csvfile, fieldnames=['player', 'plevel', 'char', 'power', 'star', 'level', 'gear'] )#pulling in as a dict for readability
-    rows = csv.DictReader( csvfile )#pulling in as a dict for readability
+    rows = csv.DictReader( csvfile, fieldnames=['player', 'plevel', 'char', 'power', 'star', 'level', 'gear'] )#pulling in as a dict for readability
     for row in rows:
         p = {}#Holder for Player obj
         c = {}#Holder for Character obj
