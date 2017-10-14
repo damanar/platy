@@ -5,9 +5,9 @@ Currently using csv files for input as swgoh is having bandwidth issues and I do
 
 ## Example csv files included in the repo:
 __guild_list.csv__:
-Player Name, Player level, Character Name, Character Power, Character Stars, Character Level, Character Gear Level
+player,plevel,char,power
 
-These will change in the future as I intend to pull Character Power and Prioritize based on that stat.
+These can be in any order but must be named correctly.
 
 __platoon_list.csv__ should just be a list of each character with one platoon per line. Names of characters must match the character names in guild_list.csv. No separation between territories. Phase 1 should have 6 rows, Phase 2-6  should have 12
 
@@ -23,47 +23,55 @@ Python version 3.6 is required and I have only tested on mac Sierra.
 Currently the script outputs in 2 formats, sequentially, by platoon and then by player:
 
 ### platoon:
-platoon  5 -
+territory  1  ::  platoon  1 -
 
-	 Cassian Andor ::  Kaiphooon shu
+	 eeth-koth 	 Tazi
 
-	 Garazeb &quot;Zeb&quot; Orrelios ::  JoshBFZ
+	 obi-wan-kenobi-old-ben 	 Bayne
 
-	 Bistan ::  JoshBFZ
+	 stormtrooper-han 	 Peanut butter
 
-	 Bodhi Rook :: UNAVAILABLE
+	 garazeb-zeb-orrelios 	 kaiphoon shu
 
-	 K-2SO ::  LyonHart
+	 ugnaught 	 Delmon Ciiid'r
 
-	 Cassian Andor ::  Peanut Butter
+	 clone-sergeant-phase-i 	 PhunbKul
 
-	 Pao :: UNAVAILABLE
+	 jawa-engineer 	 inyouendoh
 
-	 Stormtrooper Han ::  Yamz
+	 kit-fisto 	 Skillinge
 
-	 Hera Syndulla ::  JoshBFZ
+	 plo-koon 	 Peanut butter
 
-	 Ezra Bridger ::  Daddy Dunc
+	 mace-windu 	 TempleJax
 
-	 Jyn Erso ::  Pandatron
+	 finn 	 Vader000007
 
-	 Pao :: UNAVAILABLE
+	 luke-skywalker-farmboy 	 Mor'du
 
-	 K-2SO ::  Bayne
+	 lando-calrissian 	 AzureMatterSnake 11am est
 
-	 Cassian Andor ::  Silverkakari
+	 jedi-consular 	 PandaTron3000
 
-	 Bodhi Rook :: UNAVAILABLE
+	 sabine-wren 	 Gerry Ferry
 
 ### player:
-damanar :: territory 1 - platoon 1 :: Jawa
+Ace 	 territory 1 - platoon 4 	 wedge-antilles
 
-damanar :: territory 1 - platoon 6 :: Clone Sergeant - Phase I
+Ace 	 territory 1 - platoon 2 	 luke-skywalker-farmboy
 
-DrAdamBomb :: territory 1 - platoon 6 :: Plo Koon
+Ace 	 territory 2 - platoon 3 	 princess-leia
 
-DrAdamBomb :: territory 1 - platoon 3 :: CT-5555 &quot;Fives&quot;
+AzureMatterSnake 11am est 	 territory 2 - platoon 5 	 kanan-jarrus
 
-Studley Curmudgeon :: territory 1 - platoon 2 :: Baze Malbus
+AzureMatterSnake 11am est 	 territory 2 - platoon 4 	 sabine-wren
 
-Studley Curmudgeon :: territory 1 - platoon 3 :: Jawa Scavenger
+AzureMatterSnake 11am est 	 territory 1 - platoon 2 	 biggs-darklighter
+
+AzureMatterSnake 11am est 	 territory 1 - platoon 1 	 lando-calrissian
+
+AzureMatterSnake 11am est 	 territory 2 - platoon 6 	 jedi-knight-anakin
+
+AzureMatterSnake 11am est 	 territory 2 - platoon 1 	 clone-wars-chewbacca
+
+AzureMatterSnake 11am est 	 territory 1 - platoon 5 	 stormtrooper-han

@@ -49,7 +49,7 @@ class Player:
         self.name = name
         self.level = level
 #array to define what territories this player has assigned characters to
-        self.assignments = [0,0,0]#0 for ships, 1 for territory 1(middle), 2 for territory 2(bottom)
+        self.assignments = [0,0,0,0]#3 for ships, 1 for territory 1(middle), 2 for territory 2(bottom)
         self.characters = []
 
 #return number of characters assigned to given territory
