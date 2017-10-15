@@ -1,5 +1,5 @@
 # platy
-Quick and dirty python script to assign platoons in Territory Battles for Star Wars: Galaxy of Heroes
+Quick and dirty python script to assign platoons in Territory Battles for Star Wars: Galaxy of Heroes [Video Tutorial](https://youtu.be/K9DEn9z01o0)
 
 Currently using csv files for input as swgoh is having bandwidth issues and I don't want to overburden them with yet another tool scraping their site.
 
